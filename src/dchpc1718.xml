@@ -1,0 +1,29 @@
+%TEMPLATE
+
+ 
+  
+  
+   <!-- Call-To-Action Section
+   ================================================== -->
+  
+   <section id="teaching">
+      <div class="row">
+
+        <div class="twelve columns main-col">
+			
+            <div class="row item">
+				<h1><span>SLIDES</span></h1>
+			 </div>			
+            <div class="row item">
+            	<ul>
+                  <li>Slides are available at course <a href="https://www.diag.uniroma1.it/~ciciani/index.php?view=article&id=43">website</a></li>
+                  <li><a href="/marotta/slides/concurrentprogramming-v1.pdf">Concurrent Programming</a></li>
+            	</ul>
+            </div> <!-- item end -->
+		 </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+      
+     
+      
+   </section> <!-- Resume Section End-->

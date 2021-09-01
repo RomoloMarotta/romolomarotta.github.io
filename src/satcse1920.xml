@@ -1,0 +1,28 @@
+%TEMPLATE
+
+ 
+  
+  
+   <!-- Call-To-Action Section
+   ================================================== -->
+  
+   <section id="teaching">
+      <div class="row">
+
+        <div class="twelve columns main-col">
+			
+            <div class="row item">
+				<h1><span>SLIDES</span></h1>
+			 </div>			
+            <div class="row item">
+            	<ul>
+                  <li>Concurrent and parallel programming: <a href="/marotta/slides/satsce-cpp-p1.pdf">Part 1</a> - <a href="/marotta/slides/satsce-cpp-p2.pdf">Part 2</a> - <a href="/marotta/slides/satsce-cpp-p3.pdf">Part 3</a></li>
+            	</ul>
+            </div> <!-- item end -->
+		 </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+      
+     
+      
+   </section> <!-- Resume Section End-->

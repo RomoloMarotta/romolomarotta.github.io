@@ -1,0 +1,22 @@
+<script>
+   
+   window.onload = function(){
+         
+         var url = window.location.href;
+         url = url.substring(url.lastIndexOf('/') + 1);
+         if(url === "index.html" || url === "") {
+              document.getElementById('go-top').remove();
+              document.getElementById('head1').style.display = "block";
+              document.getElementById('head2').style.display =  "none";
+         }
+         else {
+              document.getElementById('head1').style.display =  "none";
+              document.getElementById('head2').style.display = "block";
+         }
+
+         elem = document.querySelectorAll('a[href="'+url+'"]')[0];
+         var parentElem = elem.parentElement;
+         parentElem.className = 'current';
+   };
+ 
+</script>
