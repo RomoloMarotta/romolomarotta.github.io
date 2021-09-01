@@ -51,29 +51,69 @@
 
       </nav> <!-- end #nav-wrap -->
 
-      <div id="head1" class="row">
-         <div class="three columns">
-            <img src="images/picprofile.jpg" alt="" />
-         </div>
-      <div class="six columns">
+      <div id="head2" class="row">
+        <div class="two columns">
+            <img class="profilepic" src="/marotta/images/picprofile2.jpg" alt="" />
+       </div>
+       <div class="four columns">
              <div class="banner-text">
-               <h1 class="">Romolo Marotta</h1><br/>
-               <h4>PostDoctoral Researcher</h4><br/>
-               <h4>Member of the HPDCS Research Laboratory</h4><br/>
-               <h4>Co-founder of Lockless S.r.l.</h4><br/>
+               <h1 class="responsive-headline">Romolo Marotta</h1>
+               <h4>PostDoctoral Researcher</h4>
              </div>
       </div>
-
        <div class="three columns">
-            <!--<img class="logoimg"  src="images/logo_sapienza_bianco.png" alt="" />-->
             <img class="logoimg1"  src="/marotta/images/logo_hpdcs_bianco.png" alt="" />
-            <img class="logoimg2" scale=0.3 src="/marotta/images/logo_lockless_bianco.png" alt="" />
       </div>
-     </div>
-
+       <div class="three columns">
+            <img class="logoimg2"  src="/marotta/images/logo_lockless_bianco.png" alt="" />
+      </div>
+   </div>
    </header> <!-- Header End -->
 
 
+ 
+  
+  
+   <!-- Call-To-Action Section
+   ================================================== -->
+  
+   <section id="teaching">
+      <div class="row">
+
+        <div class="twelve columns main-col">
+			
+            <div class="row item">
+				<h1><span>A.Y. 2019/2020</span></h1>
+			 </div>			
+            <div class="row item">
+			   <a href="/marotta/satcse1920" class="twelve columns course">Seminars in Advanced Topics in Computer Science Engineering </a>
+			   <a href="https://www.diag.uniroma1.it/~pellegrini/didattica/2019/ia.html" class="twelve columns course">Ingegneria degli algoritmi </a>
+            </div> <!-- item end -->
+			 <br/>
+			 <div class="row item">
+				<h1><span>A.Y. 2018/2019</span></h1>
+			 </div>
+            <div class="row item">
+			   <a href="/marotta/capacityplanning1718" class="twelve columns course">Capacity planning </a>
+			   <a href="/marotta/dchpc1718" class="twelve columns course">Data centers and high performance computing </a>
+            </div> <!-- item end -->
+			 <br/>
+			 <div class="row item">
+				<h1><span>A.Y. 2017/2018</span></h1>
+			 </div>
+            <div class="row item">
+			   <a href="/marotta/capacityplanning1819" class="twelve columns course">Capacity planning </a>
+			   <a href="/marotta/dchpc1819" class="twelve columns course">Data centers and high performance computing </a>
+            </div> <!-- item end -->
+			 <br/>
+            
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+      
+     
+      
+   </section> <!-- Resume Section End-->
 
 
    <!-- footer
@@ -111,7 +151,7 @@
          
          var url = window.location.href;
          url = url.substring(url.lastIndexOf('/') + 1);
-         if(url === "index.html" || url === "") {
+         if(url === "index.html") {
               document.getElementById('go-top').remove();
               document.getElementById('head1').style.display = "block";
               document.getElementById('head2').style.display =  "none";

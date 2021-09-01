@@ -51,29 +51,52 @@
 
       </nav> <!-- end #nav-wrap -->
 
-      <div id="head1" class="row">
-         <div class="three columns">
-            <img src="images/picprofile.jpg" alt="" />
-         </div>
-      <div class="six columns">
+      <div id="head2" class="row">
+        <div class="two columns">
+            <img class="profilepic" src="/marotta/images/picprofile2.jpg" alt="" />
+       </div>
+       <div class="four columns">
              <div class="banner-text">
-               <h1 class="">Romolo Marotta</h1><br/>
-               <h4>PostDoctoral Researcher</h4><br/>
-               <h4>Member of the HPDCS Research Laboratory</h4><br/>
-               <h4>Co-founder of Lockless S.r.l.</h4><br/>
+               <h1 class="responsive-headline">Romolo Marotta</h1>
+               <h4>PostDoctoral Researcher</h4>
              </div>
       </div>
-
        <div class="three columns">
-            <!--<img class="logoimg"  src="images/logo_sapienza_bianco.png" alt="" />-->
             <img class="logoimg1"  src="/marotta/images/logo_hpdcs_bianco.png" alt="" />
-            <img class="logoimg2" scale=0.3 src="/marotta/images/logo_lockless_bianco.png" alt="" />
       </div>
-     </div>
-
+       <div class="three columns">
+            <img class="logoimg2"  src="/marotta/images/logo_lockless_bianco.png" alt="" />
+      </div>
+   </div>
    </header> <!-- Header End -->
 
 
+ 
+  
+  
+   <!-- Call-To-Action Section
+   ================================================== -->
+  
+   <section id="teaching">
+      <div class="row">
+
+        <div class="twelve columns main-col">
+			
+            <div class="row item">
+				<h1><span>SLIDES</span></h1>
+			 </div>			
+            <div class="row item">
+            	<ul>
+                  <li>Concurrent and parallel programming: <a href="/marotta/slides/satsce-cpp-p1.pdf">Part 1</a> - <a href="/marotta/slides/satsce-cpp-p2.pdf">Part 2</a> - <a href="/marotta/slides/satsce-cpp-p3.pdf">Part 3</a></li>
+            	</ul>
+            </div> <!-- item end -->
+		 </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+      
+     
+      
+   </section> <!-- Resume Section End-->
 
 
    <!-- footer
@@ -111,7 +134,7 @@
          
          var url = window.location.href;
          url = url.substring(url.lastIndexOf('/') + 1);
-         if(url === "index.html" || url === "") {
+         if(url === "index.html") {
               document.getElementById('go-top').remove();
               document.getElementById('head1').style.display = "block";
               document.getElementById('head2').style.display =  "none";
