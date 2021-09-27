@@ -83,85 +83,70 @@
         <div class="twelve columns main-col">
 			
             <div class="row item">
-				<h1><span>Orario delle lezioni</span></h1>
+				<h2><span>Sistemi Operativi - A.A. 2021/2022 - Roma Tre</span></h2>
+			 </div>			
+			<div class="row item">
+            	<p>
+            		L'obiettivo del corso è fornire allo studente competenze sull'architettura di un generico sistema operativo moderno, con particolare riferimento al sistema Linux, 
+            		e sulle metodologie usate per risolvere le problematiche tipiche della gestione di risorse in un sistema operativo moderno.
+            		Infine, particolare attenzione verrà dedicata alla programmazione di sistema e scripting.
+                </p>
+			</div>			
+            <div class="row item">
+				<h4><span>Orario delle lezioni</span></h4>
+			</div>			
+            <div class="row item">
+            	<table class="table table-bordered">
+            	<tbody>
+                  	<tr><td>Martedì   </td> <td>|</td> <td> 16:00 - 18:00 </td> <td>|</td> <td> N13 [Vasca Navale 79/81] </td></tr>
+                  	<tr><td>Mercoledì </td> <td>|</td> <td> 16:00 - 18:00 </td> <td>|</td> <td> N13 [Vasca Navale 79/81] </td></tr>
+                </tbody>
+                </table>
+			 </div>			
+
+			 <div class="row item">
+			 	<br/>
+				<h4><span>Modalità d'esame</span></h4>
 			 </div>			
             <div class="row item">
+            	L'esame prevede una prova con:
             	<ul>
-                  	<li>Martedì   16:00 - 18:00 - N13 [Vasca Navale 79/81]</li>
-                  	<li>Mercoledì 16:00 - 18:00 - N13 [Vasca Navale 79/81]</li>
+                  	 <li>Domande di teoria (65% del voto)</li>
+                  	 <li>Esercizi di programmazione (35% del voto)</li>
                 </ul>
 			 </div>			
             <div class="row item">
-				<h1><span>Programma</span></h1>
+				<h4><span>Testi consigliati e link utili (in aggiornamento)</span></h4>
 			 </div>			
             <div class="row item">
             	<ul>
-                  	<li>Panoramica sui sistemi operativi moderni</li>
-                  		<ul>
-                  			<li>definizione di sistema operativo	</li>	
-                  			<li>scopi								</li>
-                  			<li>architettura a strati				</li>
-                  			<li>kernel/user mode					</li>
-                  			<li>caratteristiche salienti			</li>
-                  		</ul>
-					<li>Processi e Thread</li>
-						<ul>
-							<li>dispatching																</li>
-							<li>stati																	</li>
-							<li>descrizione e controllo													</li>
-							<li>modelli tipici di sistemi operativi e di uso della memoria nei processi	</li>
-						</ul>
-					<li>Memoria</li>				
-						<ul>					
-							<li>allocatori di memoria								</li>
-							<li>partitioning										</li>
-							<li>best/first/next fit									</li>
-							<li>buddy algorithm										</li>
-							<li>paging												</li>		
-							<li>segmentation										</li>
-							<li>memoria virtuale e sua gestione hardware/software 	</li>
-						</ul>
-					<li>Scheduling</li>
-						<ul>
-							<li>a breve medio e lungo termine	</li>
-							<li>algoritmi per cpu scheduling	</li>
-						</ul>
-					<li>I/O e File Management</li>
-						<ul>
-							<li>Disk scheduling			</li>		
-							<li>RAID					</li>
-							<li>UNIX File Management	</li>				
-							<li>inode					</li>
-							<li>Linux VFS				</li>	
-							<li>ext2					</li>
-						</ul>
-					<li>Sincronizzazione</li>
-					<ul>
-						<li>primitive di sincronizzazione	</li>
-						<li>RMW								</li>
-						<li>mutex							</li>	
-						<li>semafori						</li>		
-					</ul>
-					<li>Introduzione a Linux</li>
-					<li>comandi di utilizzo frequente (e.g., gestione file e directory)		</li>
-					<li>variabili di ambiente												</li>
-					<li>piping																</li>
-					<li>redirection															</li>
-					<li>segnali																</li>
-					<li>espressioni regolari (sed e grep)									</li>
-					<li>scripting (bash, awk)												</li>
-					<li>linux filesystem management											</li>
-					<li>Debugger: utilizzo di gdb stepping, breakpoints, watching, backtrace, comandi gdb.	</li>								
-					<li>Programmazione di Sistema: Gestione in C dei processi/thread su ambiente linux		</li>							
-					<li>Virtualizzazione: Concetti generali, container, Docker								</li>	
+					<li>Operating Systems: Internals and Design Principles - William Stallings - Prentice Hall, fifth edition (o superiori)</li>
+					<li>Programmazione in Ambiente UNIX - Francesco Quaglia, Camil Demetrescu - <a href="https://francescoquaglia.github.io/TEACHING/SISTEMI-OPERATIVI/AA-2020-2021/TEXTS/dispensa.pdf">Disponibile in formato pdf</a></li>
+                </ul>
+			 </div>			
+            <div class="row item">
+				<h4><span>Programma</span></h4>
+			 </div>			
+            <div class="row item">
+            	<ul>
+                  	<li><strong>Panoramica sui sistemi operativi moderni.</strong> definizione di sistema operativo, scopi, architettura a strati, kernel/user mode, caratteristiche salienti</li>
+					<li><strong>Processi e Thread.</strong> dispatching, stati, descrizione e controllo, modelli tipici di sistemi operativi e di uso della memoria nei processi</li>
+					<li><strong>Memoria.</strong> allocatori di memoria, partitioning, best/first/next fit, buddy algorithm, paging, segmentation, memoria virtuale e sua gestione hardware/software </li>
+					<li><strong>Scheduling.</strong> a breve medio e lungo termine, algoritmi per cpu scheduling</li>
+					<li><strong>I/O e File Management.</strong> Disk scheduling, RAID, UNIX File Management, inode, Linux VFS, ext2</li>
+					<li><strong>Sincronizzazione.</strong> primitive di sincronizzazione, RMW, mutex, semafori</li>
+					<li><strong>Introduzione a Linux.</strong> comandi di utilizzo frequente (e.g., gestione file e directory), variabili di ambiente, piping, redirection, segnali, espressioni regolari (sed e grep), scripting (bash, awk), linux filesystem management</li>
+					<li><strong>Debugger.</strong> utilizzo di gdb stepping, breakpoints, watching, backtrace, comandi gdb.</li>
+					<li><strong>Programmazione di Sistema.</strong> Gestione in C dei processi/thread su ambiente linux</li>
+					<li><strong>Virtualizzazione.</strong> Concetti generali, container, Docker</li>
             	</ul>
             </div> <!-- item end -->
             <div class="row item">
-				<h1><span>SLIDES</span></h1>
+				<h4><span>SLIDES</span></h4>
 			 </div>			
             <div class="row item">
             	<ul>
-                  <li><a href="/slides/satsce-cpp-p1.pdf">Introduzione</a></li>
+                  <li><a href="/slides/01-so-introduzione-210927v1.pdf">Introduzione</a></li>
             	</ul>
             </div> <!-- item end -->
 		 </div> <!-- main-col end -->
