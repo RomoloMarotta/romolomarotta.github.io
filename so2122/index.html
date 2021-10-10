@@ -128,10 +128,39 @@
 				<h4><span>Testi consigliati e link utili (in aggiornamento)</span></h4>
 			 </div>			
             <div class="row item">
-            	<ul>
-					<li>[t1] Operating Systems: Internals and Design Principles - William Stallings - Prentice Hall, fifth edition (o superiori)</li>
-					<li>[t2] Programmazione in Ambiente UNIX - Francesco Quaglia, Camil Demetrescu - <a href="https://francescoquaglia.github.io/TEACHING/SISTEMI-OPERATIVI/AA-2020-2021/TEXTS/dispensa.pdf">Disponibile in formato pdf</a></li>
-                </ul>
+            	<p>
+            		<ul>
+						<li>[t1] Operating Systems: Internals and Design Principles - William Stallings - Prentice Hall, fifth edition (o superiori). Riferimento: ninth global edition.</li>
+						<li>[t2] Programmazione in Ambiente UNIX - Francesco Quaglia, Camil Demetrescu - <a href="https://francescoquaglia.github.io/TEACHING/SISTEMI-OPERATIVI/AA-2020-2021/TEXTS/dispensa.pdf">Disponibile in formato pdf</a></li>
+                		<li>[t3] Sistemi operativi: Concetti ed Esempi - Silberschatz Abraham, Galvin Peter Baer, Gagne Greg - Addison Wesley/Pearson, nona edizione (o superiori). Riferimento: tenth global edition.</li>
+                	</ul>
+                </p>
+                <p>
+                	<h6>Guide di installazione Linux</h6>
+                	Si raccomanda l'installazione <strong>nativa</strong> di un Sistema Operativo (e.g., Ubuntu, Debian) con kernel Linux.
+                	Tuttavia, al fine di poter svolgere esercizi di programmazione di sistema e scripting, 
+                	è possibile ricorre all'installazione di una macchina virtuale o di un programming and runtime environment compatibile POSIX.
+                	A seguire una serie di link utili in inglese:
+                	<ol class="list-group list-group-numbered">
+                		<li class="list-group-item">[L1] <a href="https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview" target="_blank">Installare Ubuntu</a> - <strong>Attenzione!</strong>  Step 6 considera un hard disk senza sistema operativo!</li>
+                		<li>[L2] Ambiente virtualizzato:
+                			<ul>
+                				<li>Scaricare un hypervisor - <a target="_blank" href="https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html">VMWare Workstation Player</a> 
+                											- <a target="_blank" href="https://www.virtualbox.org/wiki/Downloads">Virtual Box</a> 
+                				<li>Scaricare (vedi [L1]) ed Installare una distro Linux 
+                					- <a target="_blank" href="http://partnerweb.vmware.com/GOSIG/home.html">VMWare Workstation Player</a>
+                					- <a target="_blank" href="https://www.virtualbox.org/manual/UserManual.html#Introduction">Virtual Box</a></li>
+                			</ul>
+                		</li>
+                		<li>[L3] Installare un programming and runtime environment POSIX su Windows: 
+                			<ul>
+                			<li><a target="_blank" href="https://docs.microsoft.com/en-us/windows/wsl/install"> Windows Subsystem for Linux 2 (WSL2)</a> 
+                			(ora supporta anche applicazioni con interfaccia grafica). Esempio: <a target="_blank" href="https://ubuntu.com/tutorials/ubuntu-on-windows#1-overview">Ubuntu</a></li>
+                			<li><a target="_blank" href="https://cygwin.com/install.html"> Cygwin</a></li>
+                			</ul>
+                		</li>
+                	</ol>
+                </p>
 			 </div>			
             <div class="row item">
 				<h4><span>Programma</span></h4>
@@ -161,10 +190,14 @@
             </div> <!-- item end -->
             <div class="row item">
 				<h3>Diario delle lezioni</h3>
+				<p>
+					Per ogni lezione vengono riportati riferimenti a paragrafi dei libri di testo. <br/>
+					L'unione dei paragrafi può <strong>non rappresentare la totalità degli argomenti trattati durante la lezione</strong>.
+				</p>
 			 </div>			
             <div class="row item">
 				<p>
-					<h5>28/09/2021 - Introduzione - parte 1</h5>
+					<h5>28/09/2021 - Introduzione parte 1</h5>
 					<ul>
 						<li> Sistemi operativi: definizione ed obiettivi</li>
 		        		<li> Evoluzione dei sistemi operativi: Sistemi seriali, Sistemi batch, Sistemi time-sharing, Sistemi Real time, Multicore, Dark silicon</li>
@@ -173,18 +206,18 @@
 			    	<h6>Riferimenti libro di testo</h6>
 					<ul>
 						<li> [t1] Sezione 2.1, 2.2, 2.3, 4.3</li>
+						<li> [t2] Sezione 1.1, 1.4, 2.7</li>
 			    	</ul>
 
 			    	<h6>Link di approfondimento</h6>
 					<ul>
-						<li> [t1] Capitolo 2</li>
 						<li> The free lunch is over: <a  target="_blank" href="http://www.gotw.ca/publications/concurrency-ddj.htm">http://www.gotw.ca/publications/concurrency-ddj.htm</a></li>
 						<li> Legge di Amdahl: Sezione 4 Eq. 11 <a target="_blank" href="https://dl.acm.org/doi/pdf/10.5555/110382.110450">https://dl.acm.org/doi/pdf/10.5555/110382.110450</a></li>
 						<!--<li> <a>Dark silicon</a></li>-->
 			    	</ul>					
 			    </p>
             	<p>
-					<h5>29/09/2021 - Introduzione - parte 2</h5>
+					<h5>29/09/2021 - Introduzione parte 2</h5>
 					<ul>
 						<li> Sistemi operativi: elementi chiave</li>
 		        		<li> Interrupt: eventi, supporto hardware</li>
@@ -193,9 +226,45 @@
 			    	<h6>Riferimenti libro di testo</h6>
 					<ul>
 						<li> [t1] Sezione 1.1, 1.2, 1.3, 1.4</li>
+						<li> [t2] Sezione 1.2, 2.3.1, 2.3.2 </li>
 			    	</ul>
 			    	<h6>Link di approfondimento</h6>
 			    	<li> Codice sorgente Linux Kernel: <a target="_blank" href="https://elixir.bootlin.com/linux/v5.14.7/source/arch/x86/kernel/idt.c#L79">IDT</a></li>
+			    </p>
+            	<p>
+					<h5>05/10/2021 - Introduzione parte 3 - Processi parte 1</h5>
+					Introduzione:
+					<ul>
+		        		<li> System call</li>
+		        		<li> Librerie Standard</li>
+		        		<li> Architettura dei Sistemi Operativi</li>
+			    	</ul>
+					Processi:
+					<ul>
+		        		<li> Immagine</li>
+		        		<li> Process Control Block</li>
+		        		<li> Stato di un processo: 2 stati, 3 stati</li>
+		        		<li> Code di processi</li>
+			    	</ul>
+			    	<h6>Riferimenti libro di testo</h6>
+					<ul>
+						<li> [t1] Sezione 2.7, 2.8, 3.1, 3.2</li>
+						<li> [t2] Sezione 2.3.1, 2.3.2, 2.8, 3.1.1, 3.1.3 </li>
+			    	</ul>
+			    </p>
+            	<p>
+					<h5>06/10/2021 - Processi parte 2</h5>
+					<ul>
+		        		<li> Stato di un processo e code: 5 stati</li>
+		        		<li> Strutture di controllo di un Sistema Operativo</li>
+		        		<li> Long, mid, short term scheduling</li>
+		        		<li> Process switch</li>
+			    	</ul>
+			    	<h6>Riferimenti libro di testo</h6>
+					<ul>
+						<li> [t1] Sezione 3.2, 3.3, 9.2</li>
+						<li> [t2] Sezione 2.3.1, 2.3.2, 2.8, 3.1.2, 3.2</li>
+			    	</ul>
 			    </p>
             </div> <!-- item end -->
 		 </div> <!-- main-col end -->
