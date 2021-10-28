@@ -94,7 +94,7 @@ layout: default
             	</ol>
             </p>
 		 </div>			
-        <div class="row item">
+        <div id="programma" class="row item">
 			<h4><span>Programma</span></h4>
 		 </div>			
         <div class="row item">
@@ -114,7 +114,7 @@ layout: default
         <div class="row item">
 			<h4><span>SLIDES</span></h4>
 		 </div>			
-        <div class="row item">
+        <div id="slides" class="row item">
         	<ul>
               <li><a href="/slides/01-so-introduzione-210927v1.pdf">01 - Introduzione</a> </li>
               <li><a href="/slides/02-so-processi-211021v3.pdf">02 - Processi e thread</a> [Aggiornato il 23/10/21]</li>
@@ -266,14 +266,15 @@ layout: default
 		    	</ul>
 		    	<h6>Riferimenti libro di testo</h6>
 				<ul>
-					<li> [<a href="#testi">t1</a>] Sezione 2.3</li>
-					<li> [<a href="#testi">t2</a>] Sezione 3.1.2, 3.3.1</li>
-					<li> [<a href="#testi">t3</a>] Sezione 3.2, 3.3</li>
+					<li> [<a href="#testi">t1</a>] Sezione 4.1, 4.2</li>
+					<li> [<a href="#testi">t2</a>] Sezione 4.1, 4.2, 4.3, 4.4, 4.4.1, 4.6.4</li>
 		    	</ul>
 		    	<h6>Link di approfondimento</h6>
 				<ul>
-					<li> exec: <a  target="_blank" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html">https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html</a></li>
-					<li> getenv: <a  target="_blank" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/getenv.html">https://pubs.opengroup.org/onlinepubs/9699919799/functions/getenv.html</a></li>
+					<li> pthread_key_create: <a  target="_blank" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_key_create.html">https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_key_create.html</a></li>
+					<li> pthread_key_delete: <a  target="_blank" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_key_delete.html">https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_key_delete.html</a></li>
+					<li> pthread_getspecific: <a  target="_blank" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_getspecific.html">https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_getspecific.html</a></li>
+					<li> GCC Thread Local Storage: <a  target="_blank" href="https://gcc.gnu.org/onlinedocs/gcc/Thread-Local.html">https://gcc.gnu.org/onlinedocs/gcc/Thread-Local.html</a></li>
 		    	</ul>		
 		    </p>
         	<p>
@@ -286,14 +287,15 @@ layout: default
 		    	</ul>
 		    	<h6>Riferimenti libro di testo</h6>
 				<ul>
-					<li> [<a href="#testi">t1</a>] Sezione 2.3</li>
-					<li> [<a href="#testi">t2</a>] Sezione 3.1.2, 3.3.1</li>
-					<li> [<a href="#testi">t3</a>] Sezione 3.2, 3.3</li>
+					<li> [<a href="#testi">t1</a>] Sezione 3.6, 9.1, 9.2</li>
+					<li> [<a href="#testi">t2</a>] Sezione 3.2, 4.6.4, 4.7.2, 5.1, 5.2</li>
 		    	</ul>
 		    	<h6>Link di approfondimento</h6>
 				<ul>
-					<li> exec: <a  target="_blank" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html">https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html</a></li>
-					<li> getenv: <a  target="_blank" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/getenv.html">https://pubs.opengroup.org/onlinepubs/9699919799/functions/getenv.html</a></li>
+					<li> pthread_create: <a  target="_blank" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_create.html">https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_create.html</a></li>
+					<li> pthread_join: <a  target="_blank" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_join.html">https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_join.html</a></li>
+					<li> pthread_exit: <a  target="_blank" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_exit.html">https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_exit.html</a></li>
+		    		<li> Codice sorgente Linux Kernel: <a target="_blank" href="https://elixir.bootlin.com/linux/v5.14.7/source/include/linux/sched.h#L661">task_struct</a></li>
 		    	</ul>		
 		    </p>
         	<p>
@@ -306,35 +308,25 @@ layout: default
 		    	</ul>
 		    	<h6>Riferimenti libro di testo</h6>
 				<ul>
-					<li> [<a href="#testi">t1</a>] Sezione 2.3</li>
-					<li> [<a href="#testi">t2</a>] Sezione 3.1.2, 3.3.1</li>
-					<li> [<a href="#testi">t3</a>] Sezione 3.2, 3.3</li>
+					<li> [<a href="#testi">t1</a>] Sezione 9.2</li>
+					<li> [<a href="#testi">t2</a>] Sezione 5.3</li>
 		    	</ul>
-		    	<h6>Link di approfondimento</h6>
-				<ul>
-					<li> exec: <a  target="_blank" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html">https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html</a></li>
-					<li> getenv: <a  target="_blank" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/getenv.html">https://pubs.opengroup.org/onlinepubs/9699919799/functions/getenv.html</a></li>
-		    	</ul>		
 		    </p>
         	<p>
 				<h5>27/10/2021 - CPU scheduling parte 3</h5>
 				<ul>
-	        		<li>First Come First Serve</li>
-	        		<li>Shortest Job First</li>
-	        		<li>Round Robin</li>
-	        		<li>Priority Scheduling</li>
+	        		<li>Multi-level feedback queue</li>
+	        		<li>Fair-share scheduling</li>
+	        		<li>Multiprocessor scheduling</li>
+	        		<li>Load sharing</li>
+		    		<li>Load balancing</li>
+		    		<li>Affinity</li>
 		    	</ul>
 		    	<h6>Riferimenti libro di testo</h6>
 				<ul>
-					<li> [<a href="#testi">t1</a>] Sezione 2.3</li>
-					<li> [<a href="#testi">t2</a>] Sezione 3.1.2, 3.3.1</li>
-					<li> [<a href="#testi">t3</a>] Sezione 3.2, 3.3</li>
+					<li> [<a href="#testi">t1</a>] Sezione 9.2, 10.1</li>
+					<li> [<a href="#testi">t2</a>] Sezione 5.5</li>
 		    	</ul>
-		    	<h6>Link di approfondimento</h6>
-				<ul>
-					<li> exec: <a  target="_blank" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html">https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html</a></li>
-					<li> getenv: <a  target="_blank" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/getenv.html">https://pubs.opengroup.org/onlinepubs/9699919799/functions/getenv.html</a></li>
-		    	</ul>		
 		    </p>
         </div> <!-- item end -->
 	 </div> <!-- main-col end -->
