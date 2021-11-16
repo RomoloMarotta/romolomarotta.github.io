@@ -117,10 +117,10 @@ layout: default
         <div id="slides" class="row item">
         	<ul>
               <li><a href="/slides/01-so-introduzione-210927v1.pdf">01 - Introduzione</a> </li>
-              <li><a href="/slides/02-so-processi-211021v3.pdf">02 - Processi e thread</a> [Aggiornato il 23/10/21]</li>
+              <li><a href="/slides/02-so-processi-v4-211116.pdf">02 - Processi e thread</a> [Aggiornato il 23/10/21, Aggiornato il 16/11/2021: corretta slide #68]</li>
               <li><a href="/slides/03-so-cpu-scheduling-261017v2.pdf">03 - CPU scheduling</a> [Aggiornato il 26/10/21]</li>
               <li><a href="/slides/04-sincronizzazione-211030v1.pdf">04 - Sincronizzazione</a></li>
-              <li><a href="/slides/05-memoria-2111090v1.pdf">05 - Gestione delle memoria</a></li>
+              <li><a href="/slides/05-memoria-v2-211116.pdf">05 - Gestione delle memoria</a> [Aggiornato il 16/11/21]</li>
             </ul>
         </div> <!-- item end -->
         <div class="row item">
@@ -258,13 +258,13 @@ layout: default
 		    	</ul>		
 		    </p>
         	<p>
-				<h5>19/10/2021 - Processi e threads parte 5</h5>
+				<h5>19/10/2021 - Processi parte 5 - Threads parte 1</h5>
 				<ul>
 	        		<li>Concetto di thread</li>
 	        		<li>User-Level threads e Kernel-level threads</li>
 	        		<li>POSIX threads</li>
 	        		<li>Variabili per thread</li>
-	        		<li>Librerie rientranti e non</li>
+	        		<li>Librerie thread-safe e non</li>
 		    	</ul>
 		    	<h6>Riferimenti libro di testo</h6>
 				<ul>
@@ -280,7 +280,7 @@ layout: default
 		    	</ul>		
 		    </p>
         	<p>
-				<h5>20/10/2021 - Processi e threads parte 6 - CPU scheduling parte 1</h5>
+				<h5>20/10/2021 - Threads parte 2 - CPU scheduling parte 1</h5>
 				<ul>
 	        		<li>pthread_create, pthread_join, pthread_exit</li>
 	        		<li>Processi UNIX: stati, gerarchie e threads</li>
@@ -329,6 +329,95 @@ layout: default
 					<li> [<a href="#testi">t1</a>] Sezione 9.2, 10.1</li>
 					<li> [<a href="#testi">t2</a>] Sezione 5.5</li>
 		    	</ul>
+		    	<h6>Link di approfondimento</h6>
+				<ul>
+					<li> sched_setaffinity <a  target="_blank" href="https://man7.org/linux/man-pages/man2/sched_setaffinity.2.html"> https://man7.org/linux/man-pages/man2/sched_setaffinity.2.html </a></li>
+					<li> sched_getaffinity <a  target="_blank" href="https://man7.org/linux/man-pages/man2/sched_getaffinity.2.html"> https://man7.org/linux/man-pages/man2/sched_getaffinity.2.html </a></li>
+					<li> CPU_SET <a  target="_blank" href="https://man7.org/linux/man-pages/man3/CPU_SET.3.html"> https://man7.org/linux/man-pages/man3/CPU_SET.3.html </a></li>
+					<li> pthread_setaffinity_np <a  target="_blank" href="https://man7.org/linux/man-pages/man3/pthread_setaffinity_np.3.html"> https://man7.org/linux/man-pages/man3/pthread_setaffinity_np.3.html </a></li>
+				</ul>
+		    </p>
+        	<p>
+				<h5>02/11/2021 - CPU scheduling parte 4 - Sincronizzazione parte 1</h5>
+				<ul>
+	        		<li>Scheduler UNIX System V Release 4</li>
+	        		<li>Linux Complete Fair Scheduler</li>
+	        		<li>Introduzione alla sincronizzazione</li>
+		    	</ul>
+		    	<h6>Riferimenti libro di testo</h6>
+				<ul>
+					<li> [<a href="#testi">t1</a>] Sezione 10.3, 10.4, 5</li>
+					<li> [<a href="#testi">t2</a>] Sezione 5.7.1, 6.1, 6.2</li>
+		    	</ul>
+		    	<h6>Link di approfondimento</h6>
+				<ul>
+					<li> Complete Fair Scheduler <a target="_blank" href="https://www.kernel.org/doc/html/latest/scheduler/sched-design-CFS.html"> https://www.kernel.org/doc/html/latest/scheduler/sched-design-CFS.html </a></li>
+				</ul>
+
+		    </p>
+        	<p>
+				<h5>03/11/2021 - Sincronizzazione parte 2</h5>
+				<ul>
+	        		<li>Mutua Esclusione</li>
+	        		<li>Errori Comuni: Deadlock e Livelock</li>
+	        		<li>Algoritmo di Peterson</li>
+	        		<li>Algoritmo del panettiere (Lamport)</li>
+		    	</ul>
+		    	<h6>Riferimenti libro di testo</h6>
+				<ul>
+					<li> [<a href="#testi">t1</a>] Sezione 5.1, 5.2, 6.1</li>
+					<li> [<a href="#testi">t2</a>] Sezione 6.3, 6.8, 8.2, 8.3</li>
+		    	</ul>
+		    	<h6>Link di approfondimento</h6>
+				<ul>
+					<li> Backery algorithm <a target="_blank" href="http://lamport.azurewebsites.net/pubs/bakery.pdf"> http://lamport.azurewebsites.net/pubs/bakery.pdf </a></li>
+				</ul>
+		    </p>
+        	<p>
+				<h5>09/11/2021 - Sincronizzazione parte 3</h5>
+				<ul>
+	        		<li>Read-Modify-Write</li>
+	        		<li>Algoritmi di mutua esclusione basati su RMW</li>
+	        		<li>Spin lock, Mutex POSIX</li>
+		    	</ul>
+		    	<h6>Riferimenti libro di testo</h6>
+				<ul>
+					<li> [<a href="#testi">t1</a>] Sezione 5.3</li>
+					<li> [<a href="#testi">t2</a>] Sezione 6.4, 6.5, 6.6, 7.3.1</li>
+		    	</ul>
+		    	<h6>Link di approfondimento</h6>
+				<ul>
+					<li> pthread_spin_init <a target="_blank" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_spin_init.html">  https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_spin_init.html </a></li>
+					<li> pthread_spin_lock <a target="_blank" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_spin_lock.html">  https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_spin_lock.html </a></li>
+					<li> pthread_mutex_init <a target="_blank" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_mutex_init.html">  https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_mutex_init.html </a></li>
+					<li> pthread_mutex_lock <a target="_blank" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_mutex_lock.html">  https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_mutex_lock.html </a></li>
+					<li> gcc sync builtins <a target="_blank" href="https://gcc.gnu.org/onlinedocs/gcc/_005f_005fsync-Builtins.html#g_t_005f_005fsync-Builtins"> https://gcc.gnu.org/onlinedocs/gcc/_005f_005fsync-Builtins.html#g_t_005f_005fsync-Builtins </a></li>
+				</ul>
+
+		    </p>
+        	<p>
+				<h5>10/11/2021 - Sincronizzazione parte 4 - Gestione della memoria parte 1</h5>
+				<ul>
+	        		<li>Semafori POSIX</li>
+	        		<li>Introduzione a gestione della memoria</li>
+	        		<li>Partizioni fisse</li>
+	        		<li>Partizioni dinamiche</li>
+	        		<li>Politiche di placement: Best fit, Worst fit, First fit, Next fit</li>
+	        		<li>Buddy system</li>
+	        		<li>Frammentazione interna ed esterna</li>
+		    	</ul>
+		    	<h6>Riferimenti libro di testo</h6>
+				<ul>
+					<li> [<a href="#testi">t1</a>] Sezione 7.1, 7.2</li>
+					<li> [<a href="#testi">t2</a>] Sezione 6.6, 7.3.2, 9.1, 9.1.1, 9.2, 9.2.1, 9.2.3, </li>
+		    	</ul>
+		    	<h6>Link di approfondimento</h6>
+				<ul>
+					<li> sem_init <a target="_blank" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/sem_init.html">  https://pubs.opengroup.org/onlinepubs/9699919799/functions/sem_init.html </a></li>
+					<li> sem_wait <a target="_blank" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/sem_wait.html">  https://pubs.opengroup.org/onlinepubs/9699919799/functions/sem_wait.html </a></li>
+					<li> sem_post <a target="_blank" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/sem_post.html">  https://pubs.opengroup.org/onlinepubs/9699919799/functions/sem_post.html </a></li>
+					<li> sem_destroy <a target="_blank" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/sem_destroy.html">  https://pubs.opengroup.org/onlinepubs/9699919799/functions/sem_destroy.html </a></li>
+				</ul>
 		    </p>
         </div> <!-- item end -->
 	 </div> <!-- main-col end -->
