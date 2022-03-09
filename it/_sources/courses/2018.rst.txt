@@ -1,0 +1,14 @@
+A.Y. 2018/2019
+==============
+
+
+Capacity planning
+-----------------
+
+  `website <https://www.diag.uniroma1.it/~ciciani/index.php?view=article&id=50&option=com_content&Itemid=6>`__,
+  :download:`Solid State Drives </downloads/ssd.pdf>`
+   
+Data centers and high performance computing
+-------------------------------------------
+
+  :download:`Concurrent Programming </downloads/concurrentprogramming-v1.pdf>`

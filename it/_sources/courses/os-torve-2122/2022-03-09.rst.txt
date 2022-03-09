@@ -1,0 +1,26 @@
+09-03-2022 - Installing Linux (lecture held by LUD)
+---------------------------------------------------
+
+In order to practice with system programming and scripting it is strongly
+suggested to installing a POSIX programming and runtime environment and or Virtual Machines (VM)
+with different guest operating systems.
+
+Useful links:
+
+1. Installing Linux
+
+    * `Ubuntu <https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview>`__
+
+.. warning:: 
+    Step 6 considers that no operating system is installed
+
+2. Virtual machine:
+    
+    *  Download an hypervisor - `VMWare Workstation Player <https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html>`_ - `Virtual Box <https://www.virtualbox.org/wiki/Downloads>`_ 
+    *  Download and install Linux on top of an HyperVisor - `VMWare <http://partnerweb.vmware.com/GOSIG/home.html>`_ - `VirtualBox <https://www.virtualbox.org/manual/UserManual.html#Introduction>`_ 
+3. How to install a POSIX programming and runtime environment on Windows: 
+    
+    *  `Windows Subsystem for Linux 2 <https://docs.microsoft.com/en-us/windows/wsl/install>`_ Example: `Ubuntu <https://ubuntu.com/tutorials/ubuntu-on-windows#1-overview>`_
+    *  `Cygwin <https://cygwin.com/install.html>`_
+
+
