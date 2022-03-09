@@ -1,0 +1,46 @@
+Teaching
+========
+
+
+A.Y. 2021/2022
+^^^^^^^^^^^^^^
+
+* Operating Systems @ Roma Tre:
+  `website <https://sistemioperativi.github.io/>`__ 
+* Operating Systems @ Tor Vergata:
+  `website <https://francescoquaglia.github.io/TEACHING/SISTEMI-OPERATIVI/CURRENT/>`__ 
+
+A.Y. 2019/2020
+^^^^^^^^^^^^^^
+
+* Capacity planning: 
+  `website <https://www.diag.uniroma1.it/~ciciani/index.php?view=article&id=52&option=com_content&Itemid=6>`__,
+  :download:`Solid State Drives <downloads/ssd.pdf>`
+* Seminars in Advanced Topics in Computer Science Engineering: 
+  `website <https://www.diag.uniroma1.it/~ciciani/index.php?view=article&id=52&option=com_content&Itemid=6>`__,
+  slides
+  :download:`part-1 <downloads/satsce-cpp-p1.pdf>`,
+  :download:`part-2 <downloads/satsce-cpp-p2.pdf>`,
+  :download:`part-3 <downloads/satsce-cpp-p3.pdf>`
+* Ingegneria degli algoritmi:
+  `website <https://alessandropellegrini.it/didattica/2019/ia.html>`__
+
+A.Y. 2018/2019
+^^^^^^^^^^^^^^
+
+* Capacity planning:
+  `website <https://www.diag.uniroma1.it/~ciciani/index.php?view=article&id=50&option=com_content&Itemid=6>`__,
+  :download:`Solid State Drives <downloads/ssd.pdf>`
+   
+* Data centers and high performance computing:
+  :download:`Concurrent Programming <downloads/concurrentprogramming-v1.pdf>`
+
+A.Y. 2017/2018
+^^^^^^^^^^^^^^
+
+* Capacity planning:
+  `website <https://www.diag.uniroma1.it/~ciciani/index.php?view=article&id=45&option=com_content&Itemid=6>`__,
+  :download:`Solid State Drives <downloads/ssd.pdf>`
+* Data centers and high performance computing:
+  :download:`Concurrent Programming <downloads/concurrentprogramming-v1.pdf>`
+

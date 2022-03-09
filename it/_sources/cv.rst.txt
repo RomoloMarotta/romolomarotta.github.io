@@ -1,0 +1,47 @@
+Curriculum Vitae
+================
+
+You can download a PDF version of my CV: :download:`curriculum-marotta.pdf <downloads/curriculum-marotta.pdf>` (last update 31-08-2021)
+
+Awards
+------
+
+* 09/2016 Best Paper Award, DS-RT Conference, 2016
+
+
+Research Experience
+-------------------
+
+* | January 2022 - Present
+  | Researcher. Università degli Studi Tor Vergata.
+  | Earth in the Cloud: a cloud-based framework for processing satellite data
+* | January 2020 - December 2021
+  | Researcher. Università degli Studi dell’Aquila.
+  | Instrumentation of models and code of railway systems for the management of controlled simulations
+* | September 2016 - December 2017
+  | Researcher. Fondazione CRUI.
+  | Assessment of the National Telematic Criminal Trial System 
+
+Education
+---------
+
+* | 11/2016 - 02/2020
+  | Ph.D. in Engineering in Computer Science
+  | Thesis: Innovative Concurrent Data Structures and Synchronization Supports in Multi-core Platforms
+  | Advisor: Francesco Quaglia
+  | Sapienza, University of Rome, Italy
+* | 01/2013 - 01/2016
+  | Master's Degree in Engineering in Computer Science
+  | Thesis: A Lock-Free O(1) Priority Queue For Pending Event Set Management
+  | Advisor: Francesco Quaglia
+  | Mark: 110/110 cum laude, Taught in English.
+  | Sapienza, University of Rome, Italy
+* | 09/2008 - 12/2012
+  | Bachelor's Degree in Engineering in Computer Science
+  | Thesis Title: Input-Sensitive Profiling on I/O Flows and Multi-Threading
+  | Advisor: Camil Demetrescu
+  | Mark: 110/110, Taught in Italian
+  | Sapienza, University of Rome, Italy
+* | 09/2003 - 06/2008
+  | Scientific Lyceum Diploma
+  | Liceo Statale Nomentano, Rome, Italy

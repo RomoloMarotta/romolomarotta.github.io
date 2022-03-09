@@ -1,0 +1,19 @@
+Research & Publications
+=======================
+
+
+
+Research topics
+---------------
+
+* Concurrent Data Structures
+* Synchronization Algorithms
+* Parallel Discrete Event Simulation
+* Operating Systems
+
+
+Publications
+------------
+
+
+.. include:: publications.rst
