@@ -1,3 +1,12 @@
-:orphan:
-23-03-2022 - TBD
---------------------------------------
+23-03-2022 - (tentative) Process creation, wait and exit
+--------------------------------------------------------
+
+Detailed program: TO-BE-PUBLISHED
+Code examples: TO-BE-PUBLISHED
+
+.. * UNIX fork, wait, exit, exec
+.. * Win CreateProcessW, WaitForSingleObject, ExitProcess
+
+
+Useful Links
+""""""""""""

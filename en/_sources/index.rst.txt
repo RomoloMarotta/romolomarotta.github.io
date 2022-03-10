@@ -8,12 +8,14 @@ General Information
 
 
 
+Website contents:
 
 .. toctree::
    :maxdepth: 1
-   :hidden:
 
    self
    research
    teaching
    cv
+   projects
+   aboutme

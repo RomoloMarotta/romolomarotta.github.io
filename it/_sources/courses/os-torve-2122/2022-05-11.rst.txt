@@ -1,3 +1,8 @@
-:orphan:
-11-05-2022 - TBD
---------------------------------------
+11-05-2022 - (tentative) Synchronization
+----------------------------------------
+
+Detailed program: TO-BE-PUBLISHED
+Code examples: TO-BE-PUBLISHED
+
+Useful Links
+""""""""""""

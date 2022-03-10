@@ -1,2 +1,14 @@
 16-03-2022 - C programming recalls
 --------------------------------------
+
+Detailed program:
+
+* C pointers
+* C standard library: scanf, printf
+* Stack frame
+* C layout program
+
+Code examples: TO-BE-PUBLISHED
+
+Useful Links
+""""""""""""
