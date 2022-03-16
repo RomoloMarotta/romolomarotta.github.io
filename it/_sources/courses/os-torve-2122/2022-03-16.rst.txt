@@ -6,9 +6,10 @@ Detailed program:
 * C pointers
 * C standard library: printf, scanf
 * C layout program
-* Stack frame
 
 Code examples: TO-BE-PUBLISHED
+
+Slides: :download:`01-C-recalls.pdf <slides/01-C-recalls.pdf>`
 
 Useful Links
 """"""""""""
