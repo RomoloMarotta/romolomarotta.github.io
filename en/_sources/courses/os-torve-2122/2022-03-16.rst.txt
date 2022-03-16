@@ -4,9 +4,9 @@
 Detailed program:
 
 * C pointers
-* C standard library: scanf, printf
-* Stack frame
+* C standard library: printf, scanf
 * C layout program
+* Stack frame
 
 Code examples: TO-BE-PUBLISHED
 

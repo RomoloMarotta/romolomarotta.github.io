@@ -1,5 +1,7 @@
-09-03-2022 - Installing Linux (lecture held by LUD)
+09-03-2022 - Installing Linux (lecture held by LUG)
 ---------------------------------------------------
+
+The slides of the lecture held by LUG can be retrieved at the following: `link <https://docs.google.com/presentation/d/14Y4F8BFEVeHzJkVZ6RBFQxLObpsZB6_v/edit?usp=sharing&ouid=115249137886471004104&rtpof=true&sd=true>`__
 
 In order to practice with system programming and scripting it is strongly
 suggested to installing a POSIX programming and runtime environment and or Virtual Machines (VM)

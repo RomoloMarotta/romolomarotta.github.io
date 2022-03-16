@@ -9,7 +9,7 @@ Detailed program and material of tutoring lectures
 .. toctree::
   :maxdepth: 1
 
-  09-03-2022 - Installing Linux (by LUD) <2022-03-09>
+  09-03-2022 - Installing Linux (by LUG) <2022-03-09>
   2022-03-16
   2022-03-23
   2022-03-30
