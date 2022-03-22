@@ -1,12 +1,29 @@
-23-03-2022 - (tentative) Process creation, wait and exit
---------------------------------------------------------
+23-03-2022 - (tentative) C recalls - part 2,  Process creation, wait and exit
+-----------------------------------------------------------------------------------------
 
-Detailed program: TO-BE-PUBLISHED
-Code examples: TO-BE-PUBLISHED
+Detailed program: 
+ * UNIX fork, wait, exit, exec
+ * WIN32 CreateProcess, WaitForSingleObject, ExitProcess, GetExitCodeProcess
 
-.. * UNIX fork, wait, exit, exec
-.. * Win CreateProcessW, WaitForSingleObject, ExitProcess
-
++--------------------+------------------------------------------------------------------------------------+
+|Slides:             |:download:`01-C-recalls.pdf <slides/01-C-recalls.pdf>`  (Last update: 22/03/22)     |
+|                    |:download:`02-processes.pdf (part1) <slides/02-processes.pdf>`                      |
++--------------------+------------------------------------------------------------------------------------+
+|Code examples:      |:download:`02-examples.zip <slides/02-examples.zip>`                                |
++--------------------+------------------------------------------------------------------------------------+
+|Ex. solutions:      |  TO-BE-PUBLISHED                                                                   |
++--------------------+------------------------------------------------------------------------------------+
 
 Useful Links
 """"""""""""
+
+* `fork  <https://pubs.opengroup.org/onlinepubs/9699919799/functions/fork.html>`_
+* `wait  <https://pubs.opengroup.org/onlinepubs/9699919799/functions/wait.html>`_
+* `exit  <https://pubs.opengroup.org/onlinepubs/9699919799/functions/exit.html>`_
+* `exec  <https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html>`_
+* `CreateProcessA <https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa>`_
+* `CreateProcessW <https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessw>`_
+* `ExitProcess <https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-exitprocess>`_
+* `GetExitCodeProcess <https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-getexitcodeprocess>`_
+* `WaitForSingleObject <https://docs.microsoft.com/en-us/windows/win32/api/synchapi/nf-synchapi-waitforsingleobject>`_
+* `HRESULT <https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/0642cb2f-2075-4469-918c-4441e69c548a>`_

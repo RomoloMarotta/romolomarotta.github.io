@@ -1,5 +1,5 @@
-16-03-2022 - C programming recalls
---------------------------------------
+16-03-2022 - C programming recalls - part 1
+-------------------------------------------
 
 Detailed program:
 
@@ -7,9 +7,16 @@ Detailed program:
 * C standard library: printf, scanf
 * C layout program
 
-Code examples: TO-BE-PUBLISHED
-
-Slides: :download:`01-C-recalls.pdf <slides/01-C-recalls.pdf>`
++--------------------+------------------------------------------------------------------------------------+
+|Slides:             |:download:`01-C-recalls.pdf <slides/01-C-recalls.pdf>`  (Last update: 22/03/22)     |
++--------------------+------------------------------------------------------------------------------------+
+|Code examples:      |:download:`01-examples.zip <slides/01-examples.zip>`                                |
++--------------------+------------------------------------------------------------------------------------+
+|Ex. solutions:      |  TO-BE-PUBLISHED                                                                   |
++--------------------+------------------------------------------------------------------------------------+
 
 Useful Links
 """"""""""""
+
+* `printf <https://pubs.opengroup.org/onlinepubs/9699919799/functions/printf.html>`_
+* `scanf  <https://pubs.opengroup.org/onlinepubs/9699919799/functions/scanf.html>`_
