@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>23-03-2022 - (tentative) C recalls - part 2, Process creation, wait and exit &mdash; Romolo Marotta 2021/2022 documentation</title>
+  <title>23-03-2022 - C recalls - part 2, Process creation, wait and exit - part 1 &mdash; Romolo Marotta 2021/2022 documentation</title>
       <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../../_static/css/custom.css" type="text/css" />
@@ -20,7 +20,7 @@
     <script src="../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="30-03-2022 - (tentative) Threads" href="2022-03-30.html" />
+    <link rel="next" title="30-03-2022 - (tentative) Process creation, wait and exit - part 2" href="2022-03-30.html" />
     <link rel="prev" title="16-03-2022 - C programming recalls - part 1" href="2022-03-16.html" /> 
 </head>
 
@@ -53,9 +53,9 @@
 <li class="toctree-l4 current"><a class="reference internal" href="index.html#detailed-program-and-material-of-tutoring-lectures">Detailed program and material of tutoring lectures</a><ul class="current">
 <li class="toctree-l5"><a class="reference internal" href="2022-03-09.html">09-03-2022 - Installing Linux (by LUG)</a></li>
 <li class="toctree-l5"><a class="reference internal" href="2022-03-16.html">16-03-2022 - C programming recalls - part 1</a></li>
-<li class="toctree-l5 current"><a class="current reference internal" href="#">23-03-2022 - (tentative) C recalls - part 2,  Process creation, wait and exit</a></li>
-<li class="toctree-l5"><a class="reference internal" href="2022-03-30.html">30-03-2022 - (tentative) Threads</a></li>
-<li class="toctree-l5"><a class="reference internal" href="2022-04-06.html">30-03-2022 - (tentative) Processes vs Threads</a></li>
+<li class="toctree-l5 current"><a class="current reference internal" href="#">23-03-2022 - C recalls - part 2,  Process creation, wait and exit - part 1</a></li>
+<li class="toctree-l5"><a class="reference internal" href="2022-03-30.html">30-03-2022 - (tentative) Process creation, wait and exit - part 2</a></li>
+<li class="toctree-l5"><a class="reference internal" href="2022-04-06.html">06-04-2022 - (tentative) Processes vs Threads</a></li>
 <li class="toctree-l5"><a class="reference internal" href="2022-04-13.html">13-04-2022 - (tentative) File management</a></li>
 <li class="toctree-l5"><a class="reference internal" href="2022-04-20.html">20-04-2022 - (tentative) File management</a></li>
 <li class="toctree-l5"><a class="reference internal" href="2022-04-27.html">27-04-2022 - (tentative) Communication</a></li>
@@ -95,7 +95,7 @@
           <li><a href="../../teaching.html">Teaching</a> &raquo;</li>
           <li><a href="../2021.html">A.Y. 2021/2022</a> &raquo;</li>
           <li><a href="index.html">Operating System A.A. 2021/2022 - Tor Vergata</a> &raquo;</li>
-      <li>23-03-2022 - (tentative) C recalls - part 2,  Process creation, wait and exit</li>
+      <li>23-03-2022 - C recalls - part 2,  Process creation, wait and exit - part 1</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../../_sources/courses/os-torve-2122/2022-03-23.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -105,12 +105,11 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="tentative-c-recalls-part-2-process-creation-wait-and-exit">
-<h1>23-03-2022 - (tentative) C recalls - part 2,  Process creation, wait and exit<a class="headerlink" href="#tentative-c-recalls-part-2-process-creation-wait-and-exit" title="Permalink to this headline">¶</a></h1>
+  <section id="c-recalls-part-2-process-creation-wait-and-exit-part-1">
+<h1>23-03-2022 - C recalls - part 2,  Process creation, wait and exit - part 1<a class="headerlink" href="#c-recalls-part-2-process-creation-wait-and-exit-part-1" title="Permalink to this headline">¶</a></h1>
 <dl class="simple">
 <dt>Detailed program:</dt><dd><ul class="simple">
 <li><p>UNIX fork, wait, exit, exec</p></li>
-<li><p>WIN32 CreateProcess, WaitForSingleObject, ExitProcess, GetExitCodeProcess</p></li>
 </ul>
 </dd>
 </dl>
@@ -122,7 +121,7 @@
 <tbody>
 <tr class="row-odd"><td><p>Slides:</p></td>
 <td><p><a class="reference download internal" download="" href="../../_downloads/488a447c48894f005b30a6386f689b25/01-C-recalls.pdf"><code class="xref download docutils literal notranslate"><span class="pre">01-C-recalls.pdf</span></code></a>  (Last update: 22/03/22)
-<a class="reference download internal" download="" href="../../_downloads/4bdce91930b2a24e649529561afb2ac1/02-processes.pdf"><code class="xref download docutils literal notranslate"><span class="pre">02-processes.pdf</span> <span class="pre">(part1)</span></code></a></p></td>
+<a class="reference download internal" download="" href="../../_downloads/fd0f4b4c1aa6ac617e18af6ab7bc3e51/02-processesV2.pdf"><code class="xref download docutils literal notranslate"><span class="pre">02-processes.pdf</span> <span class="pre">(Last</span> <span class="pre">update:</span> <span class="pre">30/03/22)</span></code></a></p></td>
 </tr>
 <tr class="row-even"><td><p>Code examples:</p></td>
 <td><p><a class="reference download internal" download="" href="../../_downloads/a70719d492575174047e76b1a402a083/02-examples.zip"><code class="xref download docutils literal notranslate"><span class="pre">02-examples.zip</span></code></a></p></td>
@@ -139,12 +138,6 @@
 <li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/wait.html">wait</a></p></li>
 <li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exit.html">exit</a></p></li>
 <li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html">exec</a></p></li>
-<li><p><a class="reference external" href="https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcessA</a></p></li>
-<li><p><a class="reference external" href="https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessw">CreateProcessW</a></p></li>
-<li><p><a class="reference external" href="https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-exitprocess">ExitProcess</a></p></li>
-<li><p><a class="reference external" href="https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-getexitcodeprocess">GetExitCodeProcess</a></p></li>
-<li><p><a class="reference external" href="https://docs.microsoft.com/en-us/windows/win32/api/synchapi/nf-synchapi-waitforsingleobject">WaitForSingleObject</a></p></li>
-<li><p><a class="reference external" href="https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/0642cb2f-2075-4469-918c-4441e69c548a">HRESULT</a></p></li>
 </ul>
 </section>
 </section>
@@ -154,14 +147,14 @@
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="2022-03-16.html" class="btn btn-neutral float-left" title="16-03-2022 - C programming recalls - part 1" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="2022-03-30.html" class="btn btn-neutral float-right" title="30-03-2022 - (tentative) Threads" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="2022-03-30.html" class="btn btn-neutral float-right" title="30-03-2022 - (tentative) Process creation, wait and exit - part 2" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
 
   <div role="contentinfo">
     <p>&#169; Copyright 2022, Romolo Marotta.
-      <span class="lastupdated">Last updated on Mar 22, 2022.
+      <span class="lastupdated">Last updated on Mar 30, 2022.
       </span></p>
   </div>
   <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>

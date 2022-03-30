@@ -1,8 +1,29 @@
-30-03-2022 - (tentative) Threads
---------------------------------------
+30-03-2022 - (tentative) Processes - part 2, Threads - part 1
+-----------------------------------------------------------------
 
-Detailed program: TO-BE-PUBLISHED
-Code examples: TO-BE-PUBLISHED
+Detailed program: 
+ * WIN32 CreateProcess, WaitForSingleObject, ExitProcess, GetExitCodeProcess
+ * POSIX pthread_create, pthread_join, pthread_exit
+ * WIN32 CreateThread, ExitThread, GetExitCodeThread
+
++--------------------+------------------------------------------------------------------------------------+
+|Slides:             |:download:`02-processes.pdf <slides/02-processesV2.pdf>`                            | 
+|                    |:download:`03-threads.pdf   <slides/03-threads.pdf>`                                | 
++--------------------+------------------------------------------------------------------------------------+
+|Code examples:      |:download:`03-examples.zip <slides/03-examples.zip>`                                |
++--------------------+------------------------------------------------------------------------------------+
+|Ex. solutions:      |  TO-BE-PUBLISHED                                                                   |
++--------------------+------------------------------------------------------------------------------------+
 
 Useful Links
 """"""""""""
+
+* `CreateProcessA <https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa>`_
+* `CreateProcessW <https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessw>`_
+* `ExitProcess <https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-exitprocess>`_
+* `GetExitCodeProcess <https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-getexitcodeprocess>`_
+* `WaitForSingleObject <https://docs.microsoft.com/en-us/windows/win32/api/synchapi/nf-synchapi-waitforsingleobject>`_
+* `winerror.h <https://docs.microsoft.com/en-us/windows/win32/api/winerror/>`_
+* `CreateThread <https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createthread>`_
+* `ExitThread <https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-exitthread>`_
+* `GetExitCodeThread <https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-getexitcodethread>`_
