@@ -4,13 +4,15 @@
 Detailed program: 
  * POSIX pthread_create, pthread_join, pthread_exit
  * WIN32 CreateThread, ExitThread, GetExitCodeThread
+ * gcc optmizations
+ * volatiles
 
 +--------------------+------------------------------------------------------------------------------------+
 |Slides:             |:download:`03-threads.pdf   <slides/03-threads.pdf>`                                | 
 +--------------------+------------------------------------------------------------------------------------+
 |Code examples:      |:download:`03-examples.zip <slides/03-examples.zip>`                                |
 +--------------------+------------------------------------------------------------------------------------+
-|Ex. solutions:      |:download:`03-solutions.zip <slides/03-solutions.zip>                               |
+|Ex. solutions:      |:download:`03-solutions.zip <slides/03-solutions.zip>`                              |
 +--------------------+------------------------------------------------------------------------------------+
 
 Useful Links
