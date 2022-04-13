@@ -1,8 +1,28 @@
-06-04-2022 - (tentative) Processes vs Threads
----------------------------------------------
+06-04-2022 - Threads - part 2
+-----------------------------------------------------------------
 
-Detailed program: TO-BE-PUBLISHED
-Code examples: TO-BE-PUBLISHED
+Detailed program: 
+ * POSIX pthread_create, pthread_join, pthread_exit
+ * WIN32 CreateThread, ExitThread, GetExitCodeThread
+
++--------------------+------------------------------------------------------------------------------------+
+|Slides:             |:download:`03-threads.pdf   <slides/03-threads.pdf>`                                | 
++--------------------+------------------------------------------------------------------------------------+
+|Code examples:      |:download:`03-examples.zip <slides/03-examples.zip>`                                |
++--------------------+------------------------------------------------------------------------------------+
+|Ex. solutions:      |:download:`03-solutions.zip <slides/03-solutions.zip>                               |
++--------------------+------------------------------------------------------------------------------------+
 
 Useful Links
 """"""""""""
+
+* `WaitForSingleObject <https://docs.microsoft.com/en-us/windows/win32/api/synchapi/nf-synchapi-waitforsingleobject>`_
+* `CreateThread <https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createthread>`_
+* `ExitThread <https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-exitthread>`_
+* `GetExitCodeThread <https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-getexitcodethread>`_
+* `ResumeThread <https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-resumethread>`_
+* `pthread_create  <https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_create.html>`_
+* `pthread_join  <https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_join.html>`_
+* `pthread_exit  <https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_exit.html>`_
+* `gcc volatile <https://gcc.gnu.org/onlinedocs/gcc/Volatiles.html>`_
+* `gcc optimization flags <https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html>`_

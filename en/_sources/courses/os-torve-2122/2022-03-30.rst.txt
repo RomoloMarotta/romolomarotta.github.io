@@ -1,4 +1,4 @@
-30-03-2022 - (tentative) Processes - part 2, Threads - part 1
+30-03-2022 - Processes - part 2, Threads - part 1
 -----------------------------------------------------------------
 
 Detailed program: 
@@ -27,3 +27,6 @@ Useful Links
 * `CreateThread <https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createthread>`_
 * `ExitThread <https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-exitthread>`_
 * `GetExitCodeThread <https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-getexitcodethread>`_
+* `pthread_create  <https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_create.html>`_
+* `pthread_join  <https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_join.html>`_
+* `pthread_exit  <https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_exit.html>`_
