@@ -1,8 +1,8 @@
-27-04-2022 - (tentative) File management
+27-04-2022 - File management
 ----------------------------------------
 
 Detailed program: 
- * Discussion of Exercise 5.2
+ * Discussion of Exercise 5.3 (Win32)
 
 +--------------------+------------------------------------------------------------------------------------+
 |Slides:             |:download:`05-files.pdf      <slides/05-files.pdf>`                                 |
