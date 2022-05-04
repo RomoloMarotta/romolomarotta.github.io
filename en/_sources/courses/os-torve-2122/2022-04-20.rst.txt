@@ -1,8 +1,24 @@
-20-04-2022 - (tentative) File management
+20-04-2022 - File management
 ----------------------------------------
 
-Detailed program: TO-BE-PUBLISHED
-Code examples: TO-BE-PUBLISHED
+Detailed program: 
+ * Discussion of Exercise 5.2
+
++--------------------+------------------------------------------------------------------------------------+
+|Slides:             |:download:`05-files.pdf      <slides/05-files.pdf>`                                 |
++--------------------+------------------------------------------------------------------------------------+
+|Ex. solutions:      |:download:`05-solutions.zip <slides/05-solutions.zip>`                              |
++--------------------+------------------------------------------------------------------------------------+
+
+
+
 
 Useful Links
 """"""""""""
+
+* `pthread_setaffinity_np https://man7.org/linux/man-pages/man3/pthread_setaffinity_np.3.html`_
+* `lseek  <https://pubs.opengroup.org/onlinepubs/9699919799/functions/lseek.html>`_
+* `open  <https://pubs.opengroup.org/onlinepubs/9699919799/functions/open.html>`_
+* `read  <https://pubs.opengroup.org/onlinepubs/9699919799/functions/read.html>`_
+* `write  <https://pubs.opengroup.org/onlinepubs/9699919799/functions/write.html>`_
+* `close  <https://pubs.opengroup.org/onlinepubs/9699919799/functions/close.html>`_

@@ -21,7 +21,7 @@
     <script src="../../_static/js/theme.js"></script>
     <link rel="index" title="Indice" href="../../genindex.html" />
     <link rel="search" title="Cerca" href="../../search.html" />
-    <link rel="next" title="20-04-2022 - (tentative) File management" href="2022-04-20.html" />
+    <link rel="next" title="20-04-2022 - File management" href="2022-04-20.html" />
     <link rel="prev" title="06-04-2022 - Threads - part 2" href="2022-04-06.html" /> 
 </head>
 
@@ -51,6 +51,7 @@
 <li class="toctree-l2 current"><a class="reference internal" href="../2021.html">A.Y. 2021/2022</a><ul class="current">
 <li class="toctree-l3"><a class="reference external" href="https://sistemioperativi.github.io/">Operating Systems &#64; Roma Tre</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="index.html">Operating Systems &#64; Tor Vergata</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="index.html#topics">Topics</a></li>
 <li class="toctree-l4 current"><a class="reference internal" href="index.html#detailed-program-and-material-of-tutoring-lectures">Detailed program and material of tutoring lectures</a><ul class="current">
 <li class="toctree-l5"><a class="reference internal" href="2022-03-09.html">09-03-2022 - Installing Linux (by LUG)</a></li>
 <li class="toctree-l5"><a class="reference internal" href="2022-03-16.html">16-03-2022 - C programming recalls - part 1</a></li>
@@ -58,9 +59,9 @@
 <li class="toctree-l5"><a class="reference internal" href="2022-03-30.html">30-03-2022 - Processes - part 2, Threads - part 1</a></li>
 <li class="toctree-l5"><a class="reference internal" href="2022-04-06.html">06-04-2022 - Threads - part 2</a></li>
 <li class="toctree-l5 current"><a class="current reference internal" href="#">13-04-2022 - Affinity and File management</a></li>
-<li class="toctree-l5"><a class="reference internal" href="2022-04-20.html">20-04-2022 - (tentative) File management</a></li>
-<li class="toctree-l5"><a class="reference internal" href="2022-04-27.html">27-04-2022 - (tentative) Communication</a></li>
-<li class="toctree-l5"><a class="reference internal" href="2022-05-04.html">04-05-2022 - (tentative) Synchronization</a></li>
+<li class="toctree-l5"><a class="reference internal" href="2022-04-20.html">20-04-2022 - File management</a></li>
+<li class="toctree-l5"><a class="reference internal" href="2022-04-27.html">27-04-2022 - (tentative) File management</a></li>
+<li class="toctree-l5"><a class="reference internal" href="2022-05-04.html">04-05-2022 - (tentative) Pipes</a></li>
 <li class="toctree-l5"><a class="reference internal" href="2022-05-11.html">11-05-2022 - (tentative) Synchronization</a></li>
 <li class="toctree-l5"><a class="reference internal" href="2022-05-18.html">18-05-2022 - (tentative) Signals</a></li>
 </ul>
@@ -108,7 +109,19 @@
              
   <section id="affinity-and-file-management">
 <h1>13-04-2022 - Affinity and File management<a class="headerlink" href="#affinity-and-file-management" title="Link a questa intestazione">¶</a></h1>
-<p>Detailed program: TO-BE-PUBLISHED</p>
+<p>Detailed program:</p>
+<ul class="simple">
+<li><p>Core affinity</p></li>
+<li><dl class="simple">
+<dt>File System:</dt><dd><ul>
+<li><p>pseudofile</p></li>
+<li><p>open, read, write, close</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p>Discussion of Exercise 5.1</p></li>
+</ul>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 19%" />
@@ -119,16 +132,20 @@
 <td><p><a class="reference download internal" download="" href="../../_downloads/30027b689f42d535ccf2df607c9a65fa/04-affinity.pdf"><code class="xref download docutils literal notranslate"><span class="pre">04-affinity.pdf</span></code></a>
 <a class="reference download internal" download="" href="../../_downloads/3c51faa48fd7ee8394423467b8c0e2a6/05-files.pdf"><code class="xref download docutils literal notranslate"><span class="pre">05-files.pdf</span></code></a></p></td>
 </tr>
-<tr class="row-even"><td><p>Code examples:</p></td>
-<td><p>TO-BE-PUBLISHED</p></td>
-</tr>
-<tr class="row-odd"><td><p>Ex. solutions:</p></td>
-<td><p>TO-BE-PUBLISHED</p></td>
+<tr class="row-even"><td><p>Ex. solutions:</p></td>
+<td><p><code class="xref download docutils literal notranslate"><span class="pre">05-solutions.zip</span></code></p></td>
 </tr>
 </tbody>
 </table>
 <section id="useful-links">
 <h2>Useful Links<a class="headerlink" href="#useful-links" title="Link a questa intestazione">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://linux.die.net/man/4/urandom">urandom</a></p></li>
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/open.html">open</a></p></li>
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/read.html">read</a></p></li>
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/write.html">write</a></p></li>
+<li><p><a class="reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/close.html">close</a></p></li>
+</ul>
 </section>
 </section>
 
@@ -137,14 +154,14 @@
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="2022-04-06.html" class="btn btn-neutral float-left" title="06-04-2022 - Threads - part 2" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="2022-04-20.html" class="btn btn-neutral float-right" title="20-04-2022 - (tentative) File management" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="2022-04-20.html" class="btn btn-neutral float-right" title="20-04-2022 - File management" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
 
   <div role="contentinfo">
     <p>&#169; Copyright 2022, Romolo Marotta.
-      <span class="lastupdated">Ultimo aggiornamento 23 apr 2022.
+      <span class="lastupdated">Ultimo aggiornamento 04 mag 2022.
       </span></p>
   </div>
   <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>

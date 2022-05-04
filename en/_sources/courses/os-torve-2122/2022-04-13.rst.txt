@@ -2,19 +2,29 @@
 -----------------------------------------
 
 
-Detailed program: TO-BE-PUBLISHED
+Detailed program:
+
+* Core affinity
+* File System:
+    * pseudofile
+    * open, read, write, close
+* Discussion of Exercise 5.1
 
 
 +--------------------+------------------------------------------------------------------------------------+
 |Slides:             |:download:`04-affinity.pdf   <slides/04-affinity.pdf>`                              | 
-|                    |:download:`05-files.pdf      <slides/05-files.pdf>`                                 | 
+|                    |:download:`05-files.pdf      <slides/05-files.pdf>`                                 |
 +--------------------+------------------------------------------------------------------------------------+
-|Code examples:      |TO-BE-PUBLISHED                                                                     |
-+--------------------+------------------------------------------------------------------------------------+
-|Ex. solutions:      |TO-BE-PUBLISHED                                                                     |
+|Ex. solutions:      |:download:`05-solutions.zip <slides/05-solutions.zip>`                              |
 +--------------------+------------------------------------------------------------------------------------+
 
 
 
 Useful Links
 """"""""""""
+
+* `urandom <https://linux.die.net/man/4/urandom>`_
+* `open  <https://pubs.opengroup.org/onlinepubs/9699919799/functions/open.html>`_
+* `read  <https://pubs.opengroup.org/onlinepubs/9699919799/functions/read.html>`_
+* `write  <https://pubs.opengroup.org/onlinepubs/9699919799/functions/write.html>`_
+* `close  <https://pubs.opengroup.org/onlinepubs/9699919799/functions/close.html>`_

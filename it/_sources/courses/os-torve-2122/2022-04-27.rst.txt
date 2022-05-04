@@ -1,8 +1,13 @@
-27-04-2022 - (tentative) Communication
---------------------------------------
+27-04-2022 - (tentative) File management
+----------------------------------------
 
-Detailed program: TO-BE-PUBLISHED
-Code examples: TO-BE-PUBLISHED
+Detailed program: 
+ * Discussion of Exercise 5.2
 
-Useful Links
-""""""""""""
++--------------------+------------------------------------------------------------------------------------+
+|Slides:             |:download:`05-files.pdf      <slides/05-files.pdf>`                                 |
++--------------------+------------------------------------------------------------------------------------+
+|Ex. solutions:      |:download:`05-solutions.zip <slides/05-solutions.zip>`                              |
++--------------------+------------------------------------------------------------------------------------+
+
+
