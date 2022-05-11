@@ -1,8 +1,9 @@
-04-05-2022 - (tentative) Pipes
+04-05-2022 - Pipes - part 1
 ----------------------------------------
 
-Detailed program: TO-BE-PUBLISHED
-Code examples: TO-BE-PUBLISHED
+Detailed program: 
+    * Discussion of Exercise 6.1 (server side)
+
 
 Useful Links
 """"""""""""

@@ -1,8 +1,10 @@
-11-05-2022 - (tentative) Synchronization
+11-05-2022 - (tentative) Pipes - part 2
 ----------------------------------------
 
-Detailed program: TO-BE-PUBLISHED
-Code examples: TO-BE-PUBLISHED
+Detailed program: 
+ * Discussion of Exercise 6.1 (client side)
+ * Discussion of Exercise 6.2
+
 
 Useful Links
 """"""""""""

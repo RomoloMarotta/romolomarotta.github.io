@@ -1,5 +1,5 @@
-18-05-2022 - (tentative) Signals
---------------------------------------
+18-05-2022 - (tentative) Synchronization
+----------------------------------------
 
 Detailed program: TO-BE-PUBLISHED
 Code examples: TO-BE-PUBLISHED

@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>27-04-2022 - File management &mdash; Romolo Marotta 2021/2022 documentation</title>
+  <title>27-04-2022 - File management - part 3 &mdash; Romolo Marotta 2021/2022 documentation</title>
       <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../../_static/css/custom.css" type="text/css" />
@@ -20,8 +20,8 @@
     <script src="../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="04-05-2022 - (tentative) Pipes" href="2022-05-04.html" />
-    <link rel="prev" title="20-04-2022 - File management" href="2022-04-20.html" /> 
+    <link rel="next" title="04-05-2022 - Pipes - part 1" href="2022-05-04.html" />
+    <link rel="prev" title="20-04-2022 - File management - part 2" href="2022-04-20.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -57,12 +57,13 @@
 <li class="toctree-l5"><a class="reference internal" href="2022-03-23.html">23-03-2022 - C recalls - part 2,  Process creation, wait and exit - part 1</a></li>
 <li class="toctree-l5"><a class="reference internal" href="2022-03-30.html">30-03-2022 - Processes - part 2, Threads - part 1</a></li>
 <li class="toctree-l5"><a class="reference internal" href="2022-04-06.html">06-04-2022 - Threads - part 2</a></li>
-<li class="toctree-l5"><a class="reference internal" href="2022-04-13.html">13-04-2022 - Affinity and File management</a></li>
-<li class="toctree-l5"><a class="reference internal" href="2022-04-20.html">20-04-2022 - File management</a></li>
-<li class="toctree-l5 current"><a class="current reference internal" href="#">27-04-2022 - File management</a></li>
-<li class="toctree-l5"><a class="reference internal" href="2022-05-04.html">04-05-2022 - (tentative) Pipes</a></li>
-<li class="toctree-l5"><a class="reference internal" href="2022-05-11.html">11-05-2022 - (tentative) Synchronization</a></li>
-<li class="toctree-l5"><a class="reference internal" href="2022-05-18.html">18-05-2022 - (tentative) Signals</a></li>
+<li class="toctree-l5"><a class="reference internal" href="2022-04-13.html">13-04-2022 - Affinity and File management - part 1</a></li>
+<li class="toctree-l5"><a class="reference internal" href="2022-04-20.html">20-04-2022 - File management  - part 2</a></li>
+<li class="toctree-l5 current"><a class="current reference internal" href="#">27-04-2022 - File management  - part 3</a></li>
+<li class="toctree-l5"><a class="reference internal" href="2022-05-04.html">04-05-2022 - Pipes - part 1</a></li>
+<li class="toctree-l5"><a class="reference internal" href="2022-05-11.html">11-05-2022 - (tentative) Pipes - part 2</a></li>
+<li class="toctree-l5"><a class="reference internal" href="2022-05-18.html">18-05-2022 - (tentative) Synchronization</a></li>
+<li class="toctree-l5"><a class="reference internal" href="2022-05-25.html">25-05-2022 - (tentative) Signals</a></li>
 </ul>
 </li>
 </ul>
@@ -96,7 +97,7 @@
           <li><a href="../../teaching.html">Teaching</a> &raquo;</li>
           <li><a href="../2021.html">A.Y. 2021/2022</a> &raquo;</li>
           <li><a href="index.html">Operating System A.A. 2021/2022 - Tor Vergata</a> &raquo;</li>
-      <li>27-04-2022 - File management</li>
+      <li>27-04-2022 - File management  - part 3</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../../_sources/courses/os-torve-2122/2022-04-27.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -106,8 +107,8 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="file-management">
-<h1>27-04-2022 - File management<a class="headerlink" href="#file-management" title="Permalink to this headline">¶</a></h1>
+  <section id="file-management-part-3">
+<h1>27-04-2022 - File management  - part 3<a class="headerlink" href="#file-management-part-3" title="Permalink to this headline">¶</a></h1>
 <dl class="simple">
 <dt>Detailed program:</dt><dd><ul class="simple">
 <li><p>Discussion of Exercise 5.3 (Win32)</p></li>
@@ -134,15 +135,15 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="2022-04-20.html" class="btn btn-neutral float-left" title="20-04-2022 - File management" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="2022-05-04.html" class="btn btn-neutral float-right" title="04-05-2022 - (tentative) Pipes" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="2022-04-20.html" class="btn btn-neutral float-left" title="20-04-2022 - File management - part 2" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="2022-05-04.html" class="btn btn-neutral float-right" title="04-05-2022 - Pipes - part 1" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
 
   <div role="contentinfo">
     <p>&#169; Copyright 2022, Romolo Marotta.
-      <span class="lastupdated">Last updated on May 04, 2022.
+      <span class="lastupdated">Last updated on May 11, 2022.
       </span></p>
   </div>
   <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>
