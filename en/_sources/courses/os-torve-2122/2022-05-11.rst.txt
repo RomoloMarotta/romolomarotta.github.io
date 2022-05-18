@@ -13,5 +13,12 @@ Detailed program:
 
 
 
+
 Useful Links
 """"""""""""
+
+* `open  <https://pubs.opengroup.org/onlinepubs/9699919799/functions/open.html>`_
+* `read  <https://pubs.opengroup.org/onlinepubs/9699919799/functions/read.html>`_
+* `write  <https://pubs.opengroup.org/onlinepubs/9699919799/functions/write.html>`_
+* `close  <https://pubs.opengroup.org/onlinepubs/9699919799/functions/close.html>`_
+* `mkfifo  <https://pubs.opengroup.org/onlinepubs/9699919799/functions/mkfifo.html>`_

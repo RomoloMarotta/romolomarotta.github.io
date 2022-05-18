@@ -1,5 +1,5 @@
-18-05-2022 - (tentative) Synchronization
-----------------------------------------
+18-05-2022 - (tentative) Pipes part 3,  Memory
+----------------------------------------------
 
 Detailed program: 
  * Discussion of Exercise 6.2
@@ -11,5 +11,12 @@ Detailed program:
 |Ex. solutions:      |:download:`06-solutions.zip <slides/06-solutions.zip>`                              |
 +--------------------+------------------------------------------------------------------------------------+
 
+
 Useful Links
 """"""""""""
+
+* `open  <https://pubs.opengroup.org/onlinepubs/9699919799/functions/open.html>`_
+* `read  <https://pubs.opengroup.org/onlinepubs/9699919799/functions/read.html>`_
+* `write  <https://pubs.opengroup.org/onlinepubs/9699919799/functions/write.html>`_
+* `close  <https://pubs.opengroup.org/onlinepubs/9699919799/functions/close.html>`_
+* `pipe  <https://pubs.opengroup.org/onlinepubs/9699919799/functions/pipe.html>`_
