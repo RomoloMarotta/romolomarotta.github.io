@@ -11,3 +11,12 @@ Detailed program:
 +--------------------+------------------------------------------------------------------------------------+
 
 
+
+Useful Links
+""""""""""""
+
+* `lseek  <https://pubs.opengroup.org/onlinepubs/9699919799/functions/lseek.html>`_
+* `open  <https://pubs.opengroup.org/onlinepubs/9699919799/functions/open.html>`_
+* `read  <https://pubs.opengroup.org/onlinepubs/9699919799/functions/read.html>`_
+* `write  <https://pubs.opengroup.org/onlinepubs/9699919799/functions/write.html>`_
+* `close  <https://pubs.opengroup.org/onlinepubs/9699919799/functions/close.html>`_

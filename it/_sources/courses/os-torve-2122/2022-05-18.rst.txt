@@ -1,8 +1,15 @@
 18-05-2022 - (tentative) Synchronization
 ----------------------------------------
 
-Detailed program: TO-BE-PUBLISHED
-Code examples: TO-BE-PUBLISHED
+Detailed program: 
+ * Discussion of Exercise 6.2
+
+
++--------------------+------------------------------------------------------------------------------------+
+|Slides:             |:download:`06-pipes.pdf      <slides/06-pipes.pdf>`                                 |
++--------------------+------------------------------------------------------------------------------------+
+|Ex. solutions:      |:download:`06-solutions.zip <slides/06-solutions.zip>`                              |
++--------------------+------------------------------------------------------------------------------------+
 
 Useful Links
 """"""""""""
