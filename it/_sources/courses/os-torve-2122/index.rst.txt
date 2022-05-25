@@ -3,6 +3,11 @@ Operating System A.A. 2021/2022 - Tor Vergata
 
 Official website: `link <https://francescoquaglia.github.io/TEACHING/SISTEMI-OPERATIVI/CURRENT/>`__
 
+News
+------
+
+* The Operating Systems tutoring of 25/5/2022 is canceled
+
 Topics
 ------
 
@@ -42,7 +47,7 @@ Detailed program and material of tutoring lectures
   2022-05-18
   2022-05-25
   2022-06-01
-..  2022-06-08
+  2022-06-08
 ..  2022-06-15
 ..  2022-06-22
 ..  2022-06-29
