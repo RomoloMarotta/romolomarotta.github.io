@@ -7,3 +7,17 @@
 +--------------------+------------------------------------------------------------------------------------+
 |Ex. solutions:      |:download:`07-solutions.zip <slides/07-solutions.zip>`                              |
 +--------------------+------------------------------------------------------------------------------------+
+
+
+
+Useful Links
+""""""""""""
+
+* `shmget  <https://pubs.opengroup.org/onlinepubs/9699919799/functions/shmget.html>`_
+* `shmat  <https://pubs.opengroup.org/onlinepubs/9699919799/functions/shmat.html>`_
+* `shmctl  <https://pubs.opengroup.org/onlinepubs/9699919799/functions/shmctl.html>`_
+* `shmdt  <https://pubs.opengroup.org/onlinepubs/9699919799/functions/shmdt.html>`_
+* `CreateFileMappingA   <https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-createfilemappinga>`_
+* `OpenFileMappingA    <https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-openfilemappinga>`_
+* `MapViewOfFile     <https://docs.microsoft.com/en-us/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile>`_
+* `UnmapViewOfFile    <https://docs.microsoft.com/en-us/windows/win32/api/memoryapi/nf-memoryapi-unmapviewoffile>`_
