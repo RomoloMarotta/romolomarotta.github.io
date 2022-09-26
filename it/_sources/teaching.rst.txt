@@ -4,6 +4,7 @@ Teaching
 .. toctree::
     :maxdepth: 2
     
+    courses/2022
     courses/2021
     courses/2019
     courses/2018

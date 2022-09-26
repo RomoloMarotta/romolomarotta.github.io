@@ -4,5 +4,5 @@ A.Y. 2021/2022
 .. toctree::
     :maxdepth: 1
 
-    Operating Systems @ Roma Tre <https://sistemioperativi.github.io/> 
+    Operating Systems @ Roma Tre <https://sistemioperativi.github.io/it/2021/> 
     Operating Systems @ Tor Vergata  <os-torve-2122/index>
