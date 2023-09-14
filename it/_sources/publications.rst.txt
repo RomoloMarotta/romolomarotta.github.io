@@ -28,6 +28,9 @@
 * | Romolo Marotta, Davide Tiriticco, Pierangelo di Sanzo, Alessandro Pellegrini, Bruno Ciciani, Francesco Quaglia
   | **Mutable Locks: Combining the Best of Spin and Sleep Locks**
   | *Concurr. Comput. Pract. Exp. 32(22) (2020)*
+* | Maryan Rab, Romolo Marotta, Mauro Ianni, Alessandro Pellegrini, Francesco Quaglia 
+  | **NUMA-Aware Non-Blocking Calendar Queue**
+  | **24th IEEE/ACM International Symposium on Distributed Simulation and Real Time Applications, DS‑RT'20, Rome, Italy, September 2020.* 
 * | Emiliano Silvestri, Cristian Milia, Romolo Marotta, Alessandro Pellegrini, Francesco Quaglia
   | **Exploiting Inter-Processor-Interrupts for Virtual-Time Coordination in Speculative Parallel Discrete Event Simulation**
   | *2020 ACM SIGSIM Conference on Principles of Advanced Discrete Simulation, PADS 2020, 2020.*
