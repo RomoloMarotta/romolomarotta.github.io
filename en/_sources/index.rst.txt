@@ -19,3 +19,8 @@ Website contents:
    cv
    projects
    aboutme
+
+
+Contacts:
+
+* email: r.[surname]@ing.uniroma2.it

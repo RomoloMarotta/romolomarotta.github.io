@@ -2,14 +2,14 @@ A.Y. 2017/2018
 ==============
 
 
-Capacity planning
-------------------
+Capacity planning (tutor) [MSc @ La Sapienza]
+-----------------------------------------------------------
 
   `website <https://www.diag.uniroma1.it/~ciciani/index.php?view=article&id=45&option=com_content&Itemid=6>`__,
   :download:`Solid State Drives </downloads/ssd.pdf>`
 
-Data centers and high performance computing
---------------------------------------------
+Data centers and high performance computing (seminars) [MSc @ La Sapienza]
+--------------------------------------------------------------------------
 
   :download:`Concurrent Programming </downloads/concurrentprogramming-v1.pdf>`
 

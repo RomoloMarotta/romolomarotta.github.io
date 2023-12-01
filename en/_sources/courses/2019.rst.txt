@@ -1,14 +1,14 @@
 A.Y. 2019/2020
 ==============
 
-Capacity planning
-------------------
+Capacity planning (tutor) [MSc @ La Sapienza]
+-----------------------------------------------
 
   `website <https://www.diag.uniroma1.it/~ciciani/index.php?view=article&id=52&option=com_content&Itemid=6>`__,
   :download:`Solid State Drives </downloads/ssd.pdf>`
 
-Seminars in Advanced Topics in Computer Science Engineering
-------------------------------------------------------------
+Seminars in Advanced Topics in Computer Science Engineering (seminars) [MSc @ La Sapienza]
+-------------------------------------------------------------------------------------------
 
   `website <https://www.diag.uniroma1.it/~ciciani/index.php?view=article&id=52&option=com_content&Itemid=6>`__,
   slides
@@ -16,8 +16,8 @@ Seminars in Advanced Topics in Computer Science Engineering
   :download:`part-2 </downloads/satsce-cpp-p2.pdf>`,
   :download:`part-3 </downloads/satsce-cpp-p3.pdf>`
 
-Ingegneria degli algoritmi
------------------------------
+Ingegneria degli algoritmi (tutor) [BSc @ Tor Vergata]
+--------------------------------------------------------
 
   `website <https://alessandropellegrini.it/didattica/2019/ia.html>`__
 

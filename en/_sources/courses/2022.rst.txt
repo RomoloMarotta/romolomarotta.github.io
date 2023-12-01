@@ -4,5 +4,5 @@ A.Y. 2022/2023
 .. toctree::
     :maxdepth: 1
 
-    Operating Systems @ Roma Tre <https://sistemioperativi.github.io/> 
-    Databases @ Tor Vergata [Italian]  <db-torve-2223/index>
+    Operating Systems (lecturer) [BSc @ Roma Tre] <https://sistemioperativi.github.io/> 
+    Databases (tutor) [BSc @ Tor Vergata]  <db-torve-2223/index>

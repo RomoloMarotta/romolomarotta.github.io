@@ -1,5 +1,5 @@
-Operating System A.A. 2021/2022 - Tor Vergata 
-=============================================
+Operating System A.A. 2021/2022 - BSc @Tor Vergata 
+==================================================
 
 Official website: `link <https://francescoquaglia.github.io/TEACHING/SISTEMI-OPERATIVI/CURRENT/>`__
 

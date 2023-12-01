@@ -1,7 +1,7 @@
 Curriculum Vitae
 ================
 
-You can download a PDF version of my CV: :download:`curriculum-marotta.pdf <downloads/curriculum-marotta.pdf>` (last update 26-09-2022)
+You can download a PDF version of my CV: :download:`curriculum-marotta.pdf <downloads/curriculum-marotta.pdf>` (last update 01-12-2023)
 
 Awards
 ------
@@ -12,6 +12,11 @@ Awards
 Research Experience
 -------------------
 
+* | March 2023 - present
+  | Researcher (RTDA). DICII. Università degli Studi Tor Vergata.
+* | January 2022 - December 2023
+  | Researcher. Università degli Studi Tor Vergata.
+  | Earth in the Cloud: a cloud-based framework for processing satellite data
 * | January 2022 - Present
   | Researcher. Università degli Studi Tor Vergata.
   | Earth in the Cloud: a cloud-based framework for processing satellite data

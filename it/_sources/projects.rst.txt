@@ -1,36 +1,43 @@
 Projects & Theses
 =================
 
+2023
+----
+
+* | **[MSc Thesis]** L. Ratto, "Performance and power usage tradeoff for lock based synchronization", Tor Vergata,  University of Rome.
+* | **[BSc Thesis]** S. D'antonio, "Interfaccia user-space per configurare P-states su architettura x86", Roma Tre,  University of Rome.
+* | **[MSc Thesis]** A. Chillotti, "Mostly Conflict Free Non-Blocking Slubs", Tor Vergata,  University of Rome.
+
 2021
 ----
 
-* | **[MSc Thesis]** F. Montesano, "Study and implementations of sequentially-consistent stacks", Tor Vergata,  University of Rome, 2021.
+* | **[MSc Thesis]** F. Montesano, "Study and implementations of sequentially-consistent stacks", Tor Vergata,  University of Rome.
   | Supervisor: F. Quaglia - Co-Supervisor: R. Marotta
-* | **[MSc Thesis]** L. Sannino, "How to Affect Synchronization of Multi-Threaded Applications by Altering Processors’ States",  Sapienza, University of Rome, 2021.
+* | **[MSc Thesis]** L. Sannino, "How to Affect Synchronization of Multi-Threaded Applications by Altering Processors’ States",  Sapienza, University of Rome.
   | Supervisor: C. Napoli - Co-Supervisor: R. Marotta
 
 
 2020
 ----
 
-* | **[MSc Thesis]** E. Manta, "ALLBS: A Lock-free Lazy Buddy System", Tor Vergata,  University of Rome, 2020.
+* | **[MSc Thesis]** E. Manta, "ALLBS: A Lock-free Lazy Buddy System", Tor Vergata,  University of Rome.
   | Supervisor: F. Quaglia - Co-Supervisor: R. Marotta
-* | **[MSc Thesis]** F. Tocci, "Hardware-Transactional-Memory-Based Non-Blocking Calendar Queue",  Sapienza, University of Rome, 2020.
+* | **[MSc Thesis]** F. Tocci, "Hardware-Transactional-Memory-Based Non-Blocking Calendar Queue",  Sapienza, University of Rome.
   | Supervisor: B. Ciciani - Co-Supervisor: R. Marotta
-* | **[MSc Thesis]** M. Rab, "Non-blocking Calendar Queue for NUMA", Tor Vergata,  University of Rome, 2020.
+* | **[MSc Thesis]** M. Rab, "Non-blocking Calendar Queue for NUMA", Tor Vergata,  University of Rome.
   | Supervisor: F. Quaglia - Co-Supervisor: R. Marotta
-* | **[MSc Thesis]** C. Milia, "Exploiting Inter-Processor-Interrupts in Parallel Applications", Tor Vergata,  University of Rome, 2020.
+* | **[MSc Thesis]** C. Milia, "Exploiting Inter-Processor-Interrupts in Parallel Applications", Tor Vergata,  University of Rome.
   | Supervisor: F. Quaglia - Co-Supervisor: R. Marotta, E. Silvestri
-* | **[MSc Thesis]** F. Di Marco, "Back-off schemes for locking primitives",  Sapienza, University of Rome, 2020.
+* | **[MSc Thesis]** F. Di Marco, "Back-off schemes for locking primitives",  Sapienza, University of Rome.
   | Supervisor: B. Ciciani - Co-Supervisor: R. Marotta
-* | **[MSc Thesis]** U. Mazziotta, "Parallel Priorities: Optimizing Priority Queues for NUMA Machines," Sapienza, University of Rome, 2020. 
+* | **[MSc Thesis]** U. Mazziotta, "Parallel Priorities: Optimizing Priority Queues for NUMA Machines," Sapienza, University of Rome. 
   | Supervisor: A. Pellegrini - Co-Supervisor: R. Marotta
 
 
 2017
 ----
 
-* | **[MSc Thesis]** A. Scarselli, "A Lock-Free Buddy System for Scalable Memory Allocation," Sapienza, University of Rome, 2017.
+* | **[MSc Thesis]** A. Scarselli, "A Lock-Free Buddy System for Scalable Memory Allocation," Sapienza, University of Rome.
   | Supervisor: B. Ciciani - Co-Supervisor: F. Quaglia, M. Ianni, R. Marotta
 
 

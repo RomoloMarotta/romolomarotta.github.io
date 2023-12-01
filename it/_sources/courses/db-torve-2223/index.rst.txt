@@ -1,5 +1,5 @@
-Basi di dati A.A. 2022/2023 - Tor Vergata 
-=============================================
+Basi di dati A.A. 2022/2023 - BSc @ Tor Vergata 
+===============================================
 
 Sito ufficiale: `link <https://didatticaweb.uniroma2.it/informazioni/index/insegnamento/201455-Basi-Di-Dati/0>`__
 
