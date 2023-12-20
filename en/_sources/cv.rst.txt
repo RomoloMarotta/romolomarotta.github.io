@@ -1,7 +1,7 @@
 Curriculum Vitae
 ================
 
-You can download a PDF version of my CV: :download:`curriculum-marotta.pdf <downloads/curriculum-marotta.pdf>` (last update 01-12-2023)
+You can download a PDF version of my CV: :download:`curriculum-marotta.pdf <downloads/curriculum-marotta.pdf>` (last update 21-Dec-2023)
 
 Awards
 ------
@@ -13,18 +13,15 @@ Research Experience
 -------------------
 
 * | March 2023 - present
-  | Researcher (RTDA). DICII. Università degli Studi Tor Vergata.
-* | January 2022 - December 2023
-  | Researcher. Università degli Studi Tor Vergata.
-  | Earth in the Cloud: a cloud-based framework for processing satellite data
-* | January 2022 - Present
-  | Researcher. Università degli Studi Tor Vergata.
+  | Researcher. DICII. Università degli Studi Tor Vergata.
+* | January 2022 - December 2022
+  | PostDoc Researcher. Università degli Studi Tor Vergata.
   | Earth in the Cloud: a cloud-based framework for processing satellite data
 * | January 2020 - December 2021
-  | Researcher. Università degli Studi dell’Aquila.
+  | PostDoc Researcher. Università degli Studi dell’Aquila.
   | Instrumentation of models and code of railway systems for the management of controlled simulations
 * | September 2016 - December 2017
-  | Researcher. Fondazione CRUI.
+  | Consultant/Researcher. Fondazione CRUI.
   | Assessment of the National Telematic Criminal Trial System 
 
 Education
