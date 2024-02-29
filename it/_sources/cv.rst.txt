@@ -1,7 +1,7 @@
 Curriculum Vitae
 ================
 
-You can download a PDF version of my CV: :download:`curriculum-marotta.pdf <downloads/curriculum-marotta.pdf>` (last update 21-Dec-2023)
+You can download a PDF version of my CV: :download:`curriculum-marotta.pdf <downloads/curriculum-marotta.pdf>` (last update 29-Feb-2024)
 
 Awards
 ------
@@ -9,20 +9,75 @@ Awards
 * 09/2016 Best Paper Award, DS-RT Conference, 2016
 
 
+-----------------
+
+
 Research Experience
 -------------------
 
 * | March 2023 - present
-  | Researcher. DICII. Università degli Studi Tor Vergata.
+  | **Researcher**
+  | DICII. Università degli Studi Tor Vergata.
 * | January 2022 - December 2022
-  | PostDoc Researcher. Università degli Studi Tor Vergata.
+  | **PostDoc Researcher**
+  | DICII. Università degli Studi Tor Vergata.
   | Earth in the Cloud: a cloud-based framework for processing satellite data
 * | January 2020 - December 2021
-  | PostDoc Researcher. Università degli Studi dell’Aquila.
+  | **PostDoc Researcher**. 
+  | Università degli Studi dell’Aquila.
   | Instrumentation of models and code of railway systems for the management of controlled simulations
 * | September 2016 - December 2017
-  | Consultant/Researcher. Fondazione CRUI.
+  | **Consultant/Researcher**. 
+  | Fondazione CRUI.
   | Assessment of the National Telematic Criminal Trial System 
+
+
+-----------------
+
+
+Review & Services
+-----------------
+
+* 2024-present: **IJSPM**. International Journal of Simulation and Process Modelling. *Editorial Board Member*.
+* 2024: **PADS 2024**. 2024 ACM SIGSIM Conference on Principles of Advanced Discrete Simulation. *Phd. Colloquium Chair*.
+* 2020-present: **ACM TOMACS**. Transactions on Modeling and Computer Simulation. *Information Director*.
+* 2023: **PECS'23**. The Third Workshop on Performance and Energy-efficiency of Concurrent Systems. *Program Chair*.
+* 2022: **PECS'22**. The Second Workshop on Performance and Energy-efficiency of Concurrent Systems. *Program Chair*.
+* 2021: **PECS'21**. The First Workshop on Performance and Energy-efficiency of Concurrent Systems. *General Co-Chair*.
+
+
+Program Committee Membership
+""""""""""""""""""""""""""""
+
+* 2024: **PADS 2024**. 2024 ACM SIGSIM Conference on Principles of Advanced Discrete Simulation. *PC Member*.
+* 2021-present: **CLOUD COMPUTING**. International Conference on Cloud Computing, GRIDs, and Virtualization. *PC Member*.
+* 2020-present: **SIMUL**. International Conference on Advances in System Simulation. *PC Member*.
+* 2021: **SIMULTECH**. International Conference on Advances in System Simulation. *PC Member*.
+
+
+
+External Reviewer
+"""""""""""""""""""
+
+* 2024: **JOS**. Journal of Simulation. *Reviewer*.
+* 2023: **IEEE Access**. The Multidisciplinary Open Access Journal. *Reviewer*.
+* 2022: **IEEE Access**. The Multidisciplinary Open Access Journal. *Reviewer*.
+* 2019: **IEEE Access**. The Multidisciplinary Open Access Journal. *Reviewer*.
+* 2020: **OPODIS 2020**. 2020 Conference On Principles Of Distributed Systems. *Subreviewer*.
+* 2017: **RC 2017**. 9th Conference on Reversible Computation. *Subreviewer*.
+* 2016: **NCA 2016**. 15th IEEE International Symposium on Network Computing and Applications. *Subreviewer*.
+
+
+Artifact Evaluation
+"""""""""""""""""""
+
+* 2024: **EuroSys'24**. European Conference on Computer Systems. 
+* 2022: **ACM TOMACS**. Transactions on Modeling and Computer Simulation. 
+* 2018: **PADS 2018**. 2018 ACM SIGSIM Conference on Principles of Advanced Discrete Simulation. 
+
+
+-----------------
+
 
 Education
 ---------
