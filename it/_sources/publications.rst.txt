@@ -1,3 +1,23 @@
+2024
+^^^^
+
+* | Romolo Marotta, Alessandro Pellegrini:
+  | **Model-Driven Engineering for High-Performance Parallel Discrete Event Simulations on Heterogeneous Architectures** 
+  | *WSC 2024: 2202-2213*
+* | Federica Montesano, Romolo Marotta, Francesco Quaglia:
+  | **Lightweight Operating System Services for Incremental Checkpointing in Speculative Discrete Event Simulation on Linux Platforms**
+  | *ICPADS 2024: 745-752*
+* | Philipp Andelfinger, Alessandro Pellegrini, Romolo Marotta
+  | **Sampling Policies for Near-Optimal Device Choice in Parallel Simulations on CPU/GPU Platforms**
+  | *28th IEEE/ACM International Symposium on Distributed Simulation and Real Time Applications, DS-RT, Urbino, Italy, October 2024.*
+* | Romolo Marotta,  Francesco Quaglia
+  | **Out-of-Order Discrete Event Simulation: Fighting Memory Boundedness while Running DES Models**
+  | *28th IEEE/ACM International Symposium on Distributed Simulation and Real Time Applications, DS-RT, Urbino, Italy, October 2024.*
+* | Romolo Marotta, Alessandro Pellegrini, Philipp Andelfinger
+  | **Follow the Leader: Alternating CPU/GPU Computations in PDES**
+  | *SIGSIM-PADS 2024: 47-51*
+
+
 2023
 ^^^^
 

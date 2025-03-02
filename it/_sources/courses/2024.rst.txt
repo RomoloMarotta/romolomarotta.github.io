@@ -1,0 +1,9 @@
+A.Y. 2024/2025
+==============
+
+.. toctree::
+    :maxdepth: 1
+
+    Concurrent and Parallel Programming (lecturer) [PhD @ Tor Vergata]  <cc-torve-2324/index>
+    Concurrent Programming (lecturer) [MSc @ Tor Vergata]  <https://romolomarotta.github.io/programmazione-concorrente/it/>
+
