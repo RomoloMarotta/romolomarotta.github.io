@@ -4,7 +4,7 @@
 * | Romolo Marotta, Alessandro Pellegrini:
   | **Model-Driven Engineering for High-Performance Parallel Discrete Event Simulations on Heterogeneous Architectures** 
   | *WSC 2024: 2202-2213*
-* | Federica Montesano, Romolo Marotta, Francesco Quaglia:
+* | Federica Montesano, Romolo Marotta, Francesco Quaglia
   | **Lightweight Operating System Services for Incremental Checkpointing in Speculative Discrete Event Simulation on Linux Platforms**
   | *ICPADS 2024: 745-752*
 * | Philipp Andelfinger, Alessandro Pellegrini, Romolo Marotta
