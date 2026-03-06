@@ -4,7 +4,7 @@ General Information
 
 * Researcher @ Tor Vergata
 * Member of the `HPDCS Research Laboratory <https://hpdcs.github.io/>`_
-* Co-founder of `Lockless S.r.l. <https://www.lockless.it/>`_
+* Co-founder of Lockless S.r.l.
 
 
 
